@@ -1,0 +1,117 @@
+{
+	"CopyResourcesManuals" : 
+	[
+		{
+			"ResourcesFileFromProjectFolder" : "Resource\\ko.po",
+			"ResourcesFileTargetRelativePath" : "StreamingAssets\\Languages\\da.po"
+		},
+		{
+			"ResourcesFileFromProjectFolder" : "temp\\ko.po",
+			"ResourcesFileTargetRelativePath" : "StreamingAssets\\Languages\\da.po"
+		}
+	],
+	"DataFolderName" : "Parkitect",
+	"FontPlugin" : 
+	{
+		"TMPFontAsset" : 
+		{
+			"SelectedFontAssetMapList" : 
+			[
+				{
+					"AssetName" : "museosans_500 SDF",
+					"AssetsName" : "sharedassets0.assets",
+					"ContainerPath" : "",
+					"Font Family" : "나눔바른고딕",
+					"UseContainerPath" : false
+				},
+				{
+					"AssetName" : "ARIAL SDF_fallback",
+					"AssetsName" : "sharedassets0.assets",
+					"ContainerPath" : "",
+					"Font Family" : "나눔바른고딕",
+					"UseContainerPath" : false
+				},
+				{
+					"AssetName" : "Anton SDF",
+					"AssetsName" : "resources.assets",
+					"ContainerPath" : "fonts & materials/anton sdf",
+					"Font Family" : "나눔바른고딕",
+					"UseContainerPath" : false
+				},
+				{
+					"AssetName" : "Bangers SDF",
+					"AssetsName" : "resources.assets",
+					"ContainerPath" : "fonts & materials/bangers sdf",
+					"Font Family" : "나눔바른고딕",
+					"UseContainerPath" : false
+				},
+				{
+					"AssetName" : "Electronic Highway Sign SDF",
+					"AssetsName" : "resources.assets",
+					"ContainerPath" : "fonts & materials/electronic highway sign sdf",
+					"Font Family" : "나눔바른고딕",
+					"UseContainerPath" : false
+				},
+				{
+					"AssetName" : "Oswald Bold SDF",
+					"AssetsName" : "resources.assets",
+					"ContainerPath" : "fonts & materials/oswald bold sdf",
+					"Font Family" : "나눔바른고딕",
+					"UseContainerPath" : false
+				},
+				{
+					"AssetName" : "Roboto-Bold SDF",
+					"AssetsName" : "resources.assets",
+					"ContainerPath" : "fonts & materials/roboto-bold sdf",
+					"Font Family" : "나눔바른고딕",
+					"UseContainerPath" : false
+				},
+				{
+					"AssetName" : "LiberationSans SDF",
+					"AssetsName" : "resources.assets",
+					"ContainerPath" : "fonts & materials/liberationsans sdf",
+					"Font Family" : "나눔바른고딕",
+					"UseContainerPath" : false
+				},
+				{
+					"AssetName" : "museosans_500 SDF bolder",
+					"AssetsName" : "resources.assets",
+					"ContainerPath" : "",
+					"Font Family" : "나눔바른고딕",
+					"UseContainerPath" : false
+				}
+			]
+		}
+	},
+	"GameName" : "Parkitect",
+	"GamePath" : "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Parkitect\\Parkitect_Data\\",
+	"MakerName" : "Texel Raptor",
+	"OnlineResources" : 
+	[
+		{
+			"URL" : "https://translate.zanata.org/rest/file/translation/ParkitectKorean/Beta12/ko/po?docId=strings",
+			"filePath" : "ko.po"
+		}
+	],
+	"OnlineUpdate" : 
+	{
+		"Selected" : "GitHub",
+		"currentVersion" : "v1.0.0",
+		"gitHubOwner" : "dmc31a42",
+		"gitHubRepo" : "ParkitectKoreanPatcher"
+	},
+	"ProjectSettings" : 
+	{
+		"CreateCurrentVersionTxtFileAfterBuild" : false,
+		"DownloadOnlineResourcesWhenBuild" : true,
+		"IsZipFileNameConatinVersion" : false,
+		"RemoveBuildFolderBeforeBuild" : true,
+		"ZipBuildFolderAfterBuild" : true,
+		"ZipFileName" : "ParkitectKoreanPatcher"
+	},
+	"TextPlugin" : 
+	{
+		"Done" : [],
+		"InteractWithFileTextNews" : []
+	}
+}
