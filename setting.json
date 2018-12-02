@@ -3,16 +3,20 @@
 	[
 		{
 			"ResourcesFileFromProjectFolder" : "Resource\\ko.po",
-			"ResourcesFileTargetRelativePath" : "StreamingAssets\\Languages\\da.po"
+			"ResourcesFileTargetRelativePath" : "StreamingAssets\\Languages\\zh_CN.po"
 		},
 		{
 			"ResourcesFileFromProjectFolder" : "temp\\ko.po",
-			"ResourcesFileTargetRelativePath" : "StreamingAssets\\Languages\\da.po"
+			"ResourcesFileTargetRelativePath" : "StreamingAssets\\Languages\\zh_CN.po"
 		}
 	],
 	"DataFolderName" : "Parkitect",
 	"FontPlugin" : 
 	{
+		"NGUIFontAsset" : 
+		{
+			"Saveds" : []
+		},
 		"TMPFontAsset" : 
 		{
 			"SelectedFontAssetMapList" : 
@@ -25,57 +29,22 @@
 					"UseContainerPath" : false
 				},
 				{
-					"AssetName" : "ARIAL SDF_fallback",
+					"AssetName" : "NotoSansCJKsc-Regular SDF",
 					"AssetsName" : "sharedassets0.assets",
 					"ContainerPath" : "",
 					"Font Family" : "나눔바른고딕",
 					"UseContainerPath" : false
 				},
 				{
-					"AssetName" : "Anton SDF",
-					"AssetsName" : "resources.assets",
-					"ContainerPath" : "fonts & materials/anton sdf",
+					"AssetName" : "NotoSansCJKsc-Regular SDF Uncommon",
+					"AssetsName" : "sharedassets0.assets",
+					"ContainerPath" : "",
 					"Font Family" : "나눔바른고딕",
 					"UseContainerPath" : false
 				},
 				{
-					"AssetName" : "Bangers SDF",
-					"AssetsName" : "resources.assets",
-					"ContainerPath" : "fonts & materials/bangers sdf",
-					"Font Family" : "나눔바른고딕",
-					"UseContainerPath" : false
-				},
-				{
-					"AssetName" : "Electronic Highway Sign SDF",
-					"AssetsName" : "resources.assets",
-					"ContainerPath" : "fonts & materials/electronic highway sign sdf",
-					"Font Family" : "나눔바른고딕",
-					"UseContainerPath" : false
-				},
-				{
-					"AssetName" : "Oswald Bold SDF",
-					"AssetsName" : "resources.assets",
-					"ContainerPath" : "fonts & materials/oswald bold sdf",
-					"Font Family" : "나눔바른고딕",
-					"UseContainerPath" : false
-				},
-				{
-					"AssetName" : "Roboto-Bold SDF",
-					"AssetsName" : "resources.assets",
-					"ContainerPath" : "fonts & materials/roboto-bold sdf",
-					"Font Family" : "나눔바른고딕",
-					"UseContainerPath" : false
-				},
-				{
-					"AssetName" : "LiberationSans SDF",
-					"AssetsName" : "resources.assets",
-					"ContainerPath" : "fonts & materials/liberationsans sdf",
-					"Font Family" : "나눔바른고딕",
-					"UseContainerPath" : false
-				},
-				{
-					"AssetName" : "museosans_500 SDF bolder",
-					"AssetsName" : "resources.assets",
+					"AssetName" : "NotoSansCJKsc-Regular SDF Common 2",
+					"AssetsName" : "sharedassets0.assets",
 					"ContainerPath" : "",
 					"Font Family" : "나눔바른고딕",
 					"UseContainerPath" : false
@@ -89,14 +58,14 @@
 	"OnlineResources" : 
 	[
 		{
-			"URL" : "https://translate.zanata.org/rest/file/translation/ParkitectKorean/Beta12/ko/po?docId=strings",
+			"URL" : "https://translate.zanata.org/rest/file/translation/ParkitectKorean/1.0/ko/po?docId=strings",
 			"filePath" : "ko.po"
 		}
 	],
 	"OnlineUpdate" : 
 	{
 		"Selected" : "GitHub",
-		"currentVersion" : "v1.0.0",
+		"currentVersion" : "v1.0.1",
 		"gitHubOwner" : "dmc31a42",
 		"gitHubRepo" : "ParkitectKoreanPatcher"
 	},
