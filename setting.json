@@ -25,42 +25,56 @@
 					"AssetName" : "NotoSansCJKsc-Regular SDF",
 					"AssetsName" : "sharedassets0.assets",
 					"ContainerPath" : "",
-					"Font Family" : "NotoSansCJKkr_Regular SDF",
+					"Font Family" : "나눔바른고딕",
 					"UseContainerPath" : false
 				},
 				{
 					"AssetName" : "NotoSansCJKsc-Regular SDF Uncommon",
 					"AssetsName" : "sharedassets0.assets",
 					"ContainerPath" : "",
-					"Font Family" : "NotoSansCJKkr_Regular SDF",
+					"Font Family" : "나눔바른고딕",
 					"UseContainerPath" : false
 				},
 				{
 					"AssetName" : "NotoSansCJKsc-Regular SDF Common 2",
 					"AssetsName" : "sharedassets0.assets",
 					"ContainerPath" : "",
-					"Font Family" : "NotoSansCJKkr_Regular SDF",
+					"Font Family" : "나눔바른고딕",
 					"UseContainerPath" : false
 				},
 				{
 					"AssetName" : "museosans_500 SDF",
 					"AssetsName" : "sharedassets0.assets",
 					"ContainerPath" : "",
-					"Font Family" : "NotoSansCJKkr_Regular SDF",
+					"Font Family" : "나눔바른고딕",
 					"UseContainerPath" : false
 				},
 				{
 					"AssetName" : "museosans_500 SDF bolder",
 					"AssetsName" : "resources.assets",
 					"ContainerPath" : "",
-					"Font Family" : "NotoSansCJKkr_Regular SDF",
+					"Font Family" : "나눔바른고딕",
 					"UseContainerPath" : false
 				},
 				{
 					"AssetName" : "LiberationSans SDF",
 					"AssetsName" : "resources.assets",
 					"ContainerPath" : "fonts & materials/liberationsans sdf",
-					"Font Family" : "NotoSansCJKkr_Regular SDF",
+					"Font Family" : "나눔바른고딕",
+					"UseContainerPath" : false
+				},
+				{
+					"AssetName" : "ARIAL SDF_fallback",
+					"AssetsName" : "sharedassets0.assets",
+					"ContainerPath" : "",
+					"Font Family" : "나눔바른고딕",
+					"UseContainerPath" : false
+				},
+				{
+					"AssetName" : "NotoSans-Regular SDF Russian",
+					"AssetsName" : "sharedassets0.assets",
+					"ContainerPath" : "",
+					"Font Family" : "나눔바른고딕",
 					"UseContainerPath" : false
 				}
 			]
@@ -83,7 +97,7 @@
 	"OnlineUpdate" : 
 	{
 		"Selected" : "GitHub",
-		"currentVersion" : "v1.1.0",
+		"currentVersion" : "v1.1.1",
 		"gitHubOwner" : "dmc31a42",
 		"gitHubRepo" : "ParkitectKoreanPatcher"
 	},
