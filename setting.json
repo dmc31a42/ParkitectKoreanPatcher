@@ -22,34 +22,52 @@
 			"SelectedFontAssetMapList" : 
 			[
 				{
-					"AssetName" : "museosans_500 SDF",
-					"AssetsName" : "sharedassets0.assets",
-					"ContainerPath" : "",
-					"Font Family" : "나눔바른고딕",
-					"UseContainerPath" : false
-				},
-				{
 					"AssetName" : "NotoSansCJKsc-Regular SDF",
 					"AssetsName" : "sharedassets0.assets",
 					"ContainerPath" : "",
-					"Font Family" : "나눔바른고딕",
+					"Font Family" : "NotoSansCJKkr_Regular SDF",
 					"UseContainerPath" : false
 				},
 				{
 					"AssetName" : "NotoSansCJKsc-Regular SDF Uncommon",
 					"AssetsName" : "sharedassets0.assets",
 					"ContainerPath" : "",
-					"Font Family" : "나눔바른고딕",
+					"Font Family" : "NotoSansCJKkr_Regular SDF",
 					"UseContainerPath" : false
 				},
 				{
 					"AssetName" : "NotoSansCJKsc-Regular SDF Common 2",
 					"AssetsName" : "sharedassets0.assets",
 					"ContainerPath" : "",
-					"Font Family" : "나눔바른고딕",
+					"Font Family" : "NotoSansCJKkr_Regular SDF",
+					"UseContainerPath" : false
+				},
+				{
+					"AssetName" : "museosans_500 SDF",
+					"AssetsName" : "sharedassets0.assets",
+					"ContainerPath" : "",
+					"Font Family" : "NotoSansCJKkr_Regular SDF",
+					"UseContainerPath" : false
+				},
+				{
+					"AssetName" : "museosans_500 SDF bolder",
+					"AssetsName" : "resources.assets",
+					"ContainerPath" : "",
+					"Font Family" : "NotoSansCJKkr_Regular SDF",
+					"UseContainerPath" : false
+				},
+				{
+					"AssetName" : "LiberationSans SDF",
+					"AssetsName" : "resources.assets",
+					"ContainerPath" : "fonts & materials/liberationsans sdf",
+					"Font Family" : "NotoSansCJKkr_Regular SDF",
 					"UseContainerPath" : false
 				}
 			]
+		},
+		"UnityDefaultFont" : 
+		{
+			"Saveds" : []
 		}
 	},
 	"GameName" : "Parkitect",
@@ -58,14 +76,14 @@
 	"OnlineResources" : 
 	[
 		{
-			"URL" : "https://translate.zanata.org/rest/file/translation/ParkitectKorean/1.0/ko/po?docId=strings",
+			"URL" : "https://translate.zanata.org/rest/file/translation/ParkitectKorean/1.1/ko/po?docId=strings",
 			"filePath" : "ko.po"
 		}
 	],
 	"OnlineUpdate" : 
 	{
 		"Selected" : "GitHub",
-		"currentVersion" : "v1.0.1",
+		"currentVersion" : "v1.1.0",
 		"gitHubOwner" : "dmc31a42",
 		"gitHubRepo" : "ParkitectKoreanPatcher"
 	},
