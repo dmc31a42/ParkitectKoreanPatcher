@@ -29,51 +29,9 @@
 					"UseContainerPath" : false
 				},
 				{
-					"AssetName" : "NotoSansCJKsc-Regular SDF Uncommon",
-					"AssetsName" : "sharedassets0.assets",
-					"ContainerPath" : "",
-					"Font Family" : "나눔바른고딕",
-					"UseContainerPath" : false
-				},
-				{
-					"AssetName" : "NotoSansCJKsc-Regular SDF Common 2",
-					"AssetsName" : "sharedassets0.assets",
-					"ContainerPath" : "",
-					"Font Family" : "나눔바른고딕",
-					"UseContainerPath" : false
-				},
-				{
-					"AssetName" : "museosans_500 SDF",
-					"AssetsName" : "sharedassets0.assets",
-					"ContainerPath" : "",
-					"Font Family" : "나눔바른고딕",
-					"UseContainerPath" : false
-				},
-				{
-					"AssetName" : "museosans_500 SDF bolder",
-					"AssetsName" : "resources.assets",
-					"ContainerPath" : "",
-					"Font Family" : "나눔바른고딕",
-					"UseContainerPath" : false
-				},
-				{
 					"AssetName" : "LiberationSans SDF",
 					"AssetsName" : "resources.assets",
 					"ContainerPath" : "fonts & materials/liberationsans sdf",
-					"Font Family" : "나눔바른고딕",
-					"UseContainerPath" : false
-				},
-				{
-					"AssetName" : "ARIAL SDF_fallback",
-					"AssetsName" : "sharedassets0.assets",
-					"ContainerPath" : "",
-					"Font Family" : "나눔바른고딕",
-					"UseContainerPath" : false
-				},
-				{
-					"AssetName" : "NotoSans-Regular SDF Russian",
-					"AssetsName" : "sharedassets0.assets",
-					"ContainerPath" : "",
 					"Font Family" : "나눔바른고딕",
 					"UseContainerPath" : false
 				}
@@ -90,14 +48,14 @@
 	"OnlineResources" : 
 	[
 		{
-			"URL" : "https://translate.zanata.org/rest/file/translation/ParkitectKorean/1.1a/ko/po?docId=strings",
+			"URL" : "https://raw.githubusercontent.com/dmc31a42/ParkitectKoreanPatcher/master/strings.po",
 			"filePath" : "ko.po"
 		}
 	],
 	"OnlineUpdate" : 
 	{
 		"Selected" : "GitHub",
-		"currentVersion" : "v1.1.2",
+		"currentVersion" : "v1.1.3",
 		"gitHubOwner" : "dmc31a42",
 		"gitHubRepo" : "ParkitectKoreanPatcher"
 	},
