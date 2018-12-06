@@ -90,14 +90,14 @@
 	"OnlineResources" : 
 	[
 		{
-			"URL" : "https://translate.zanata.org/rest/file/translation/ParkitectKorean/1.1/ko/po?docId=strings",
+			"URL" : "https://translate.zanata.org/rest/file/translation/ParkitectKorean/1.1a/ko/po?docId=strings",
 			"filePath" : "ko.po"
 		}
 	],
 	"OnlineUpdate" : 
 	{
 		"Selected" : "GitHub",
-		"currentVersion" : "v1.1.1",
+		"currentVersion" : "v1.1.2",
 		"gitHubOwner" : "dmc31a42",
 		"gitHubRepo" : "ParkitectKoreanPatcher"
 	},
