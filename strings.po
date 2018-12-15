@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-04 14:02+0100\n"
+"POT-Creation-Date: 2018-12-13 19:46+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-12-06 01:29+0000\n"
+"PO-Revision-Date: 2018-12-15 05:35+0000\n"
 "Last-Translator: Willem Lee <telk5093@gmail.com>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -24,8 +24,8 @@ msgstr "제거할 수 없습니다."
 msgid "Failed to delete."
 msgstr "제거하는데 실패했습니다."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\block.cs:850
-#: 5.4\assets\scripts\attractions\coasters\tracksegment4.cs:1551
+#: c:\work\parkitect unity 5.4\assets\scripts\block.cs:860
+#: 5.4\assets\scripts\attractions\coasters\tracksegment4.cs:1587
 msgid "It is not allowed to build this high."
 msgstr "이 높이에선 건설이 불가능합니다."
 
@@ -149,7 +149,7 @@ msgid "There has been an error."
 msgstr "오류가 발생하였습니다."
 
 #. / 0 = name of the mod that is causing errors
-#: c:\work\parkitect unity 5.4\assets\scripts\gamecontroller.cs:250
+#: c:\work\parkitect unity 5.4\assets\scripts\gamecontroller.cs:253
 #, csharp-format
 msgid ""
 "The mod \"{0}\" is causing errors that might result in the game not working "
@@ -157,45 +157,45 @@ msgid ""
 msgstr "\"{0}\" 모드의 오류로 인해 게임이 제대로 작동하지 않을 수 있습니다. 이 모드를 비활성화하고 게임을 다시 시작하십시오."
 
 #. / 0 = file path
-#: c:\work\parkitect unity 5.4\assets\scripts\gamecontroller.cs:829
+#: c:\work\parkitect unity 5.4\assets\scripts\gamecontroller.cs:832
 #: 5.4\assets\scripts\ui\windows\blueprints\saveblueprintwindow.cs:94
 #, csharp-format
 msgid "Your PC disallowed the game from writing to \"{0}\"."
 msgstr "\"{0}\"의 쓰기 작업을 할 수 없습니다."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\gamecontroller.cs:829
+#: c:\work\parkitect unity 5.4\assets\scripts\gamecontroller.cs:832
 #: 5.4\assets\scripts\ui\windows\blueprints\saveblueprintwindow.cs:94
 msgid "Whoops!"
 msgstr "이런!"
 
-#: c:\work\parkitect unity 5.4\assets\scripts\gamecontroller.cs:835
+#: c:\work\parkitect unity 5.4\assets\scripts\gamecontroller.cs:838
 msgid "Something went wrong with saving your game."
 msgstr "게임을 저장하는 도중 문제가 발생했습니다."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\gamecontroller.cs:848
+#: c:\work\parkitect unity 5.4\assets\scripts\gamecontroller.cs:851
 msgid "Game saved"
 msgstr "저장했습니다."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\gamecontroller.cs:848
+#: c:\work\parkitect unity 5.4\assets\scripts\gamecontroller.cs:851
 #: 5.4\assets\scripts\parkscreenshotcamera.cs:167
 #: 5.4\assets\scripts\ui\windows\blueprints\saveblueprintwindow.cs:90
 #, csharp-format
 msgid "Saved as {0}"
 msgstr "{0}(으)로 저장되었습니다."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\gamecontroller.cs:1037
-#: 5.4\assets\scripts\gamecontroller.cs:1102
+#: c:\work\parkitect unity 5.4\assets\scripts\gamecontroller.cs:1040
+#: 5.4\assets\scripts\gamecontroller.cs:1105
 msgid "There were problems loading this savegame."
 msgstr "저장된 게임을 불러오는 데 문제가 발생했습니다."
 
 #. / 0 = email address
-#: c:\work\parkitect unity 5.4\assets\scripts\gamecontroller.cs:1255
+#: c:\work\parkitect unity 5.4\assets\scripts\gamecontroller.cs:1258
 #, csharp-format
 msgid "Please report this to {0}."
 msgstr "이 문제를 {0} (으)로 보고해주십시요."
 
 #. / 0 = name of mod
-#: c:\work\parkitect unity 5.4\assets\scripts\gamecontroller.cs:1259
+#: c:\work\parkitect unity 5.4\assets\scripts\gamecontroller.cs:1262
 #, csharp-format
 msgid ""
 "This seems to be caused by the \"{0}\" mod. Please contact the author of "
@@ -364,21 +364,72 @@ msgstr "이미 공원에 {0}개 있습니다."
 msgid "Hold the goals at 100% completion for {0} to win."
 msgstr "클리어하려면 {0} 동안 목표를 100% 상태로 유지하십시오."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:55
+#: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:66
+msgid ""
+"Making guests happy is the goal of a theme park. Happy guests will stay "
+"longer and are generally more easy to deal with."
+msgstr ""
+"놀이공원의 손님들을 행복하게 만드는 것이 목표입니다. 행복한 손님은 일반적으로 더 오래 공원에 머물고 놀이기구나 시설을 더 많이 이용하게 "
+"됩니다."
+
+#: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:68
+msgid ""
+"People get tired after a while and your park should provide enough benches "
+"for them to take a rest. Tired guests walk slowly and might leave your park "
+"eventually."
+msgstr ""
+"손님들은 시간이 지나면 피곤해지므로 손님들이 앉아서 쉴 수 있도록 충분히 많은 의자를 배치해두어야 합니다. 피곤한 손님은 천천히 걷게 "
+"되고 결국 공원을 떠나게 됩니다."
+
+#: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:70
+msgid "Hungry guests might get angry and leave your park."
+msgstr "배고픈 손님은 화를 내다가 공원을 떠나게 됩니다."
+
+#: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:72
+msgid ""
+"Thirsty guests might get angry and leave your park. How quickly guests get "
+"thirsty and what kinds of drinks they prefer depends on the climate."
+msgstr "목마른 손님은 화를 내다가 공원을 떠나게 됩니다. 손님들이 선호하는 기후에 따라 떨어지는 목마름 수치가 다를 수 있습니다."
+
+#: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:74
+msgid ""
+"You don't <i>have</i> to provide toilets, but it's probably for the best if "
+"you do."
+msgstr "화장실을 반드시 제공할 필요는 <i>없습</i>니다만, 가능하다면 제공하는 게 최선이겠죠."
+
+#: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:76
+msgid ""
+"Not everyone can handle crazy rides and some guests might get sick. Provide "
+"some benches or First Aid Rooms for guests to recover, or strategically "
+"place trash bins to prevent a bigger accident."
+msgstr ""
+"모든 손님들이 격렬한 놀이기구를 버티는 건 아니라서 어떤 손님들은 어지러워할 수 있습니다. 그런 손님들이 회복할 수 있도록 의자나 응급 "
+"치료소를 제공하시거나, 더 큰 사고를 예방하기 위해 쓰레기통을 전략적으로 배치하세요."
+
+#: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:78
+msgid ""
+"Guests don't want to see park utility buildings and enjoy being in nicely "
+"decorated parks. The more immersed they are the easier it is to keep them "
+"happy and the longer they will stay in the park."
+msgstr ""
+"손님들은 공원 운영 시설을 보기 싫어하고 잘 꾸며진 공원을 보는 걸 좋아합니다. 손님들이 공원에 더 몰입하면 할 수록 행복도가 오래 "
+"유지되기 쉽고 더 오래 공원에 머물게 될 것입니다."
+
+#: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:87
 msgid ""
 "Exciting rides attract more guests and can charge a higher entrance fee. A "
 "varied ride design is important, and decorations help too."
 msgstr ""
 "흥미로운 놀이기구는 더 많은 손님을 끌어모으고 높은 수익을 가져다줍니다. 흥미도는 트랙의 디자인은 물론 주변 경관에도 영향을 받습니다."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:56
+#: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:88
 msgid ""
 "Some guests like intense elements such as high G forces, tall drops and "
 "inversions - some don't. Their preferences can change slightly as they spend "
 "time in the park."
 msgstr "일부 손님은 격렬한 기구를 선호하지만 반대인 경우도 있습니다. 손님의 선호 격렬도는 공원에 머물면서 변할 수 있습니다."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:57
+#: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:89
 msgid ""
 "Some guests are more tolerant to this than others, but too much spinning or "
 "abrupt direction changes increase the chance that the Janitors have to clean "
@@ -387,7 +438,7 @@ msgstr ""
 "어떤 손님들은 다른 손님들보다 더 멀미 참을성이 높지만, 너무 회전을 많이 하거나 갑작스럽게 방향을 바꾸면 미화원이 치워야 하는 토사물을 "
 "생성할 가능성을 더 높입니다."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:58
+#: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:90
 msgid "Decorating the queue and ride itself makes it more exciting."
 msgstr "대기줄과 놀이기구를 꾸미면 손님들의 흥미를 더 끌 수 있습니다."
 
@@ -402,6 +453,14 @@ msgstr "오른쪽 마우스"
 #: c:\work\parkitect unity 5.4\assets\scripts\inputmanager.cs:132
 msgid "Middle Mouse"
 msgstr "가운데 마우스"
+
+#: c:\work\parkitect unity 5.4\assets\scripts\inputmanager.cs:135
+msgid "Left Control"
+msgstr "왼쪽 Ctrl"
+
+#: c:\work\parkitect unity 5.4\assets\scripts\inputmanager.cs:138
+msgid "Right Control"
+msgstr "오른쪽 Ctrl"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\loancontroller.cs:36
 msgid "Happy Co. Finance"
@@ -504,7 +563,7 @@ msgid "Building Maintenance"
 msgstr "건물 유지비"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\monthlytransactions.cs:68
-#: 5.4\assets\scripts\research\researchcontroller.cs:392
+#: 5.4\assets\scripts\research\researchcontroller.cs:411
 #: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:132
 #: 5.4\assets\scripts\ui\windows\statwindow.cs:22
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:50
@@ -524,7 +583,7 @@ msgid "Operating"
 msgstr "운영"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\monthlytransactions.cs:72
-#: 5.4\assets\scripts\ui\windows\settings\controlsettingstab.cs:78
+#: 5.4\assets\scripts\ui\windows\settings\controlsettingstab.cs:84
 msgid "Other"
 msgstr "기타"
 
@@ -537,55 +596,55 @@ msgstr "합계"
 msgid "Unnamed Park"
 msgstr "이름없는 공원"
 
-#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:594
+#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:596
 msgid "Your park went bankrupt and has been closed."
 msgstr "공원이 파산하여 문이 닫혔습니다."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:934
+#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:936
 msgid "Many of your guests are thirsty."
 msgstr "많은 손님들이 목말라 합니다."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:934
+#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:936
 msgid "Make sure there are enough shops selling drinks."
 msgstr "음료수를 파는 상점이 충분한 지 확인하세요."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:938
+#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:940
 msgid "Many of your guests are hungry."
 msgstr "많은 손님들이 배고파 합니다."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:938
+#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:940
 msgid "Make sure there are enough shops selling food."
 msgstr "음식을 파는 상점이 충분한 지 확인하세요."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:942
+#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:944
 msgid "Many of your guests are tired."
 msgstr "많은 손님들이 피곤해 합니다."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:942
+#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:944
 msgid "Make sure there are enough benches for your guests to rest on."
 msgstr "손님들이 쉴 수 있도록 의자가 충분한 지 확인하십시오."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:946
+#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:948
 msgid "Many of your guests are complaining about trash."
 msgstr "많은 손님들이 쓰레기에 대해 불평하고 있습니다."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:946
+#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:948
 msgid "Make sure there are enough trash bins and janitors."
 msgstr "쓰레기통과 미화원이 충분한 지 확인하십시오."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:950
+#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:952
 msgid "Many of your guests are complaining about vandalism."
 msgstr "많은 손님들이 기물 파손에 대해 불평하고 있습니다."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:950
+#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:952
 msgid "Make sure there are enough security guards and mechanics."
 msgstr "경비원과 정비기술자가 충분한 지 확인하십시오."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:966
+#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:968
 msgid "Many of your employees are tired."
 msgstr "많은 직원들이 피곤해 합니다."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:966
+#: c:\work\parkitect unity 5.4\assets\scripts\park.cs:968
 msgid ""
 "Make sure there are enough Staff Rooms so your employees can take a break."
 msgstr "직원들이 쉴 수 있는 휴게실이 충분한 지 확인해주세요."
@@ -799,7 +858,7 @@ msgstr "총 비용"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\achievements\stats\totalgueststat.cs:12
-#: 5.4\assets\scripts\research\researchcontroller.cs:275
+#: 5.4\assets\scripts\research\researchcontroller.cs:294
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:59
 msgid "Total guests"
 msgstr "총 손님"
@@ -990,7 +1049,7 @@ msgstr "제거하기 전에 먼저 \"{0}\"를 닫아야 합니다."
 
 #. / 0 = number
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\attractions\stationcontroller.cs:385
+#: 5.4\assets\scripts\attractions\stationcontroller.cs:394
 #, csharp-format
 msgid "Station #{0}"
 msgstr "정거장 #{0}"
@@ -1012,7 +1071,7 @@ msgid "This attraction can only have one station."
 msgstr "이 놀이기구에는 단 하나의 정거장만 있을 수 있습니다."
 
 #: c:\work\parkitect unity 5.4\assets\scripts\attractions\trackedride.cs:461
-#: 5.4\assets\scripts\attractions\coasters\tracksegment4.cs:1525
+#: 5.4\assets\scripts\attractions\coasters\tracksegment4.cs:1561
 msgid "Do you want to close this ride and start editing it?"
 msgstr "정말로 이 놀이기구를 닫고 편집하시겠습니까?"
 
@@ -1028,13 +1087,13 @@ msgstr "{0}(이)가 정거장에 오랫동안 돌아오지 않았습니다."
 
 #. / 0, 1, 2 = numbers, for example "3.5"
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\attractions\coasters\trackbuilder.cs:1436
+#: 5.4\assets\scripts\attractions\coasters\trackbuilder.cs:1443
 #, csharp-format
 msgid "Must be at a full or half unit height, for example {0} or {1}, not {2}"
 msgstr "{2}가 아니라, {0} 또는 {1} 처럼 한 칸 또는 반 칸 높이에 있어야 합니다."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\attractions\coasters\tracksegment4.cs:1559
+#: 5.4\assets\scripts\attractions\coasters\tracksegment4.cs:1595
 msgid "Too high for supports."
 msgstr "너무 높습니다."
 
@@ -1163,7 +1222,7 @@ msgstr "첫 장소!"
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\attractions\coasters\trains\train.cs:891
 msgid "Aww, last place..."
-msgstr "아,.. 마지막 장소..."
+msgstr "아... 마지막 바퀴야..."
 
 #. / 0 = number, 1 = name of attraction
 #: c:\work\parkitect unity
@@ -1607,7 +1666,7 @@ msgid_plural "There are {0} vandals remaining."
 msgstr[0] "반달 {0}명이 남아있습니다."
 
 #. / 0 = name/description of a scenario goal that has been failed
-#: c:\work\parkitect unity 5.4\assets\scripts\goals\goalscontroller.cs:219
+#: c:\work\parkitect unity 5.4\assets\scripts\goals\goalscontroller.cs:222
 #, csharp-format
 msgid ""
 "Your park has been closed because you did not complete the following goal:\n"
@@ -1616,21 +1675,21 @@ msgstr ""
 "다음 목표를 달성하지 못해서 공원 문이 닫혔습니다:\n"
 "{0}"
 
-#: c:\work\parkitect unity 5.4\assets\scripts\goals\goalscontroller.cs:238
+#: c:\work\parkitect unity 5.4\assets\scripts\goals\goalscontroller.cs:241
 msgid "Rewards:"
 msgstr "보상:"
 
-#: c:\work\parkitect unity 5.4\assets\scripts\goals\goalscontroller.cs:244
+#: c:\work\parkitect unity 5.4\assets\scripts\goals\goalscontroller.cs:247
 msgid "You have completed a goal!"
 msgstr "목표를 달성하였습니다!"
 
-#: c:\work\parkitect unity 5.4\assets\scripts\goals\goalscontroller.cs:282
+#: c:\work\parkitect unity 5.4\assets\scripts\goals\goalscontroller.cs:285
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkgoalstab.cs:113
 msgid "You have completed all goals!"
 msgstr "모든 목표를 달성하였습니다!"
 
 #. / 0 = name/description of a scenario goal
-#: c:\work\parkitect unity 5.4\assets\scripts\goals\goalscontroller.cs:326
+#: c:\work\parkitect unity 5.4\assets\scripts\goals\goalscontroller.cs:333
 #, csharp-format
 msgid "Optional: {0}"
 msgstr "선택: {0}"
@@ -1945,7 +2004,7 @@ msgid "Entertainer"
 msgstr "엔터테이너"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:268
-#: 5.4\assets\scripts\people\guest.cs:630
+#: 5.4\assets\scripts\people\guest.cs:654
 msgid "I'm banned!"
 msgstr "쫓겨났어요!"
 
@@ -1981,49 +2040,49 @@ msgstr "제 흥미를 끌만한 놀이기구를 찾을 수 없어요!"
 msgid "I had a great time!"
 msgstr "정말 재미있는 시간을 보냈어요!"
 
-#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:427
+#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:451
 msgid "I'm the first guest!"
 msgstr "제가 첫 번째 손님이에요!"
 
 #. / 0 = number
-#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:431
+#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:455
 #, csharp-format
 msgid "I'm guest number {0}!"
 msgstr "저는 {0}번 손님이에요!"
 
-#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:442
+#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:466
 msgid "It's great to be here again!"
 msgstr "여기 다시 오면 좋겠어요!"
 
-#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:550
+#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:574
 msgid "This path is really disgusting!"
-msgstr "이 길은 너무 역겨워요!"
+msgstr "이 길은 너무 상태가 엉망이네요!"
 
-#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:561
+#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:585
 msgid "I don't want to stay any longer in this filthy park!"
 msgstr "이 더러운 공원에는 잠시라도 더 머물고 싶지 않네요!"
 
-#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:572
+#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:596
 msgid "The scenery here is amazing!"
 msgstr "이 근처는 풍경이 정말 멋져요!"
 
-#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:581
+#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:605
 msgid "This area doesn't look very nice..."
 msgstr "이 구역은 별로 멋지지 않네요..."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:589
+#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:613
 msgid "The vandalism over here is really bad..."
 msgstr "이 근처에 기물이 파손되어 있어요..."
 
-#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:639
+#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:663
 msgid "I can't afford the park entrance fee!"
 msgstr "공원 입장료를 낼 수 없어요!"
 
-#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:649
+#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:673
 msgid "The park entrance fee is a good deal!"
 msgstr "공원 입장료가 아주 적절하네요!"
 
-#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:652
+#: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:676
 msgid "I'm not paying that much park entrance fee!"
 msgstr "공원 입장료에 그만큼의 돈을 내지 않을 거에요!"
 
@@ -2767,255 +2826,255 @@ msgstr "너무 피곤해요..."
 
 #. / 0 = name of research team
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:171
+#: 5.4\assets\scripts\research\researchcontroller.cs:190
 #, csharp-format
 msgid "{0} has finished their research!"
 msgstr "{0} - 연구를 완료하였습니다!"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:276
+#: 5.4\assets\scripts\research\researchcontroller.cs:295
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:60
 msgid "Customers last month"
 msgstr "지난 달 고객 수"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:277
+#: 5.4\assets\scripts\research\researchcontroller.cs:296
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:61
 msgid "Missed customers last month"
 msgstr "지난 달 놓친 고객 수"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:278
+#: 5.4\assets\scripts\research\researchcontroller.cs:297
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:89
 msgid "Total attraction profit"
 msgstr "총 놀이기구 수익"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:279
+#: 5.4\assets\scripts\research\researchcontroller.cs:298
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:98
 msgid "Total shop revenue"
 msgstr "총 상점 수익"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:280
+#: 5.4\assets\scripts\research\researchcontroller.cs:299
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:99
 msgid "Total shop profit"
 msgstr "총 상점 순익"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:281
+#: 5.4\assets\scripts\research\researchcontroller.cs:300
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:62
 msgid "Average time in park"
 msgstr "공원에서 평균적으로 머문 시간"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:282
+#: 5.4\assets\scripts\research\researchcontroller.cs:301
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:63
 msgid "Average money spent"
 msgstr "공원에서 평균적으로 쓴 돈"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:283
+#: 5.4\assets\scripts\research\researchcontroller.cs:302
 msgid "Average attractions visited"
 msgstr "놀이기구에 평균 방문 횟수"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:284
+#: 5.4\assets\scripts\research\researchcontroller.cs:303
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:65
 msgid "Average queue time"
 msgstr "평균 대기 시간"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:285
+#: 5.4\assets\scripts\research\researchcontroller.cs:304
 msgid "Average food consumed"
 msgstr "평균 음식 소비량"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:286
+#: 5.4\assets\scripts\research\researchcontroller.cs:305
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:73
 msgid "Total footpaths swept"
 msgstr "길을 닦은 총 횟수"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:287
+#: 5.4\assets\scripts\research\researchcontroller.cs:306
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:74
 msgid "Total trash bins emptied"
 msgstr "쓰레기통을 비운 총 횟수"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:288
+#: 5.4\assets\scripts\research\researchcontroller.cs:307
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:75
 msgid "Total toilets scrubbed"
 msgstr "총 화장실 청소 횟수"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:289
+#: 5.4\assets\scripts\research\researchcontroller.cs:308
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:76
 msgid "Total crates delivered"
 msgstr "총 상자 운반 수"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:290
+#: 5.4\assets\scripts\research\researchcontroller.cs:309
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:77
 msgid "Total attractions repaired"
 msgstr "총 놀이기구 수리 횟수"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:291
+#: 5.4\assets\scripts\research\researchcontroller.cs:310
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:78
 msgid "Total attractions maintained"
 msgstr "총 놀이기구 유지보수 횟수"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:292
+#: 5.4\assets\scripts\research\researchcontroller.cs:311
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:79
 msgid "Total vandalized objects repaired"
 msgstr "총 파괴된 기물 수리 횟수"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:293
+#: 5.4\assets\scripts\research\researchcontroller.cs:312
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:80
 msgid "Total vandals caught"
 msgstr "총 기물파괴범 검거 횟수"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:294
+#: 5.4\assets\scripts\research\researchcontroller.cs:313
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:81
 msgid "Total guests entertained"
 msgstr "총 즐거워진 손님 횟수"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:295
+#: 5.4\assets\scripts\research\researchcontroller.cs:314
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:88
 msgid "Total attraction revenue"
 msgstr "총 놀이기구 수익"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:296
+#: 5.4\assets\scripts\research\researchcontroller.cs:315
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:91
 msgid "Most profitable attraction"
 msgstr "가장 수익이 좋은 놀이기구"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:297
+#: 5.4\assets\scripts\research\researchcontroller.cs:316
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:90
 msgid "Total attraction customers"
 msgstr "총 놀이기구 고객 수"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:298
+#: 5.4\assets\scripts\research\researchcontroller.cs:317
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:100
 msgid "Most profitable shop"
 msgstr "가장 수익이 좋은 상점"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:299
+#: 5.4\assets\scripts\research\researchcontroller.cs:318
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:87
 msgid "Total attraction breakdowns"
 msgstr "총 놀이기구 고장 수"
 
 #. / 0 = name of statistics
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:344
+#: 5.4\assets\scripts\research\researchcontroller.cs:363
 #, csharp-format
-msgid "You can now view the \"{0}\" statistics."
-msgstr "이제 \"{0}\" 통계를 볼 수 있습니다."
+msgid "You can now view the \"{0}\" statistics in the Park Info window."
+msgstr "공원 정보 창에서 이제 \"{0}\" 통계를 볼 수 있습니다."
 
 #. / 0 = name of research that has been unlocked
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:348
+#: 5.4\assets\scripts\research\researchcontroller.cs:367
 #, csharp-format
 msgid "\"{0}\" is available now."
 msgstr "\"{0}\"(을)를 사용할 수 있습니다."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:352
+#: 5.4\assets\scripts\research\researchcontroller.cs:371
 msgid "Calm Rides"
 msgstr "얌전한 놀이기구"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:355
-#: 5.4\assets\scripts\research\researchcontroller.cs:363
-#: 5.4\assets\scripts\research\researchcontroller.cs:371
-#: 5.4\assets\scripts\research\researchcontroller.cs:379
-#: 5.4\assets\scripts\research\researchcontroller.cs:387
-#: 5.4\assets\scripts\research\researchcontroller.cs:395
-#: 5.4\assets\scripts\research\researchcontroller.cs:403
-#: 5.4\assets\scripts\research\researchcontroller.cs:411
-msgid "Researching"
-msgstr "연구 중"
-
-#: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:356
-#: 5.4\assets\scripts\research\researchcontroller.cs:364
-#: 5.4\assets\scripts\research\researchcontroller.cs:372
-#: 5.4\assets\scripts\research\researchcontroller.cs:380
-#: 5.4\assets\scripts\research\researchcontroller.cs:388
-#: 5.4\assets\scripts\research\researchcontroller.cs:396
-#: 5.4\assets\scripts\research\researchcontroller.cs:404
-#: 5.4\assets\scripts\research\researchcontroller.cs:412
-msgid "Planning"
-msgstr "계획 중"
-
-#: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:357
-#: 5.4\assets\scripts\research\researchcontroller.cs:365
-#: 5.4\assets\scripts\research\researchcontroller.cs:373
-#: 5.4\assets\scripts\research\researchcontroller.cs:381
-#: 5.4\assets\scripts\research\researchcontroller.cs:389
-#: 5.4\assets\scripts\research\researchcontroller.cs:397
-#: 5.4\assets\scripts\research\researchcontroller.cs:405
-msgid "Designing"
-msgstr "디자인 중"
-
-#: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:358
-#: 5.4\assets\scripts\research\researchcontroller.cs:366
 #: 5.4\assets\scripts\research\researchcontroller.cs:374
 #: 5.4\assets\scripts\research\researchcontroller.cs:382
 #: 5.4\assets\scripts\research\researchcontroller.cs:390
 #: 5.4\assets\scripts\research\researchcontroller.cs:398
 #: 5.4\assets\scripts\research\researchcontroller.cs:406
+#: 5.4\assets\scripts\research\researchcontroller.cs:414
+#: 5.4\assets\scripts\research\researchcontroller.cs:422
+#: 5.4\assets\scripts\research\researchcontroller.cs:430
+msgid "Researching"
+msgstr "연구 중"
+
+#: c:\work\parkitect unity
+#: 5.4\assets\scripts\research\researchcontroller.cs:375
+#: 5.4\assets\scripts\research\researchcontroller.cs:383
+#: 5.4\assets\scripts\research\researchcontroller.cs:391
+#: 5.4\assets\scripts\research\researchcontroller.cs:399
+#: 5.4\assets\scripts\research\researchcontroller.cs:407
+#: 5.4\assets\scripts\research\researchcontroller.cs:415
+#: 5.4\assets\scripts\research\researchcontroller.cs:423
+#: 5.4\assets\scripts\research\researchcontroller.cs:431
+msgid "Planning"
+msgstr "계획 중"
+
+#: c:\work\parkitect unity
+#: 5.4\assets\scripts\research\researchcontroller.cs:376
+#: 5.4\assets\scripts\research\researchcontroller.cs:384
+#: 5.4\assets\scripts\research\researchcontroller.cs:392
+#: 5.4\assets\scripts\research\researchcontroller.cs:400
+#: 5.4\assets\scripts\research\researchcontroller.cs:408
+#: 5.4\assets\scripts\research\researchcontroller.cs:416
+#: 5.4\assets\scripts\research\researchcontroller.cs:424
+msgid "Designing"
+msgstr "디자인 중"
+
+#: c:\work\parkitect unity
+#: 5.4\assets\scripts\research\researchcontroller.cs:377
+#: 5.4\assets\scripts\research\researchcontroller.cs:385
+#: 5.4\assets\scripts\research\researchcontroller.cs:393
+#: 5.4\assets\scripts\research\researchcontroller.cs:401
+#: 5.4\assets\scripts\research\researchcontroller.cs:409
+#: 5.4\assets\scripts\research\researchcontroller.cs:417
+#: 5.4\assets\scripts\research\researchcontroller.cs:425
 msgid "Producing"
 msgstr "제작 중"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:360
+#: 5.4\assets\scripts\research\researchcontroller.cs:379
 msgid "Thrill Rides"
 msgstr "스릴있는 놀이기구"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:368
+#: 5.4\assets\scripts\research\researchcontroller.cs:387
 msgid "Coasters"
 msgstr "코스터"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:376
+#: 5.4\assets\scripts\research\researchcontroller.cs:395
 msgid "Transport Rides"
 msgstr "운송용 놀이기구"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:384
+#: 5.4\assets\scripts\research\researchcontroller.cs:403
 msgid "Water Rides"
 msgstr "물 놀이기구"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:400
+#: 5.4\assets\scripts\research\researchcontroller.cs:419
 msgid "Decorations"
-msgstr "풍경 점수"
+msgstr "풍경"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:408
+#: 5.4\assets\scripts\research\researchcontroller.cs:427
 msgid "Statistics"
 msgstr "통계"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:413
+#: 5.4\assets\scripts\research\researchcontroller.cs:432
 msgid "Analysing data"
 msgstr "데이터 분석 중"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\research\researchcontroller.cs:414
+#: 5.4\assets\scripts\research\researchcontroller.cs:433
 msgid "Producing initial statistics"
 msgstr "초반 통계 생성 중"
 
@@ -3048,8 +3107,8 @@ msgstr "아이디어 모으는 중"
 #. / 0 = name of research team
 #: c:\work\parkitect unity 5.4\assets\scripts\research\researchteam.cs:174
 #, csharp-format
-msgid "{0} has nothing left to research."
-msgstr "{0} - 더 이상 연구할 게 없습니다"
+msgid "{0} has nothing left to research in this scenario."
+msgstr "{0} - 이 시나리오에서는 더 연구할 것이 없습니다."
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\scenarioeditor\scenariochecker.cs:30
@@ -3151,8 +3210,8 @@ msgid "Trash"
 msgstr "쓰레기"
 
 #. / 0 = name of new game version
-#: c:\work\parkitect unity 5.4\assets\scripts\ui\alphasplash.cs:176
-#: 5.4\assets\scripts\ui\splashmenu.cs:360
+#: c:\work\parkitect unity 5.4\assets\scripts\ui\alphasplash.cs:177
+#: 5.4\assets\scripts\ui\splashmenu.cs:376
 #, csharp-format
 msgid ""
 "{0} available!\n"
@@ -3161,8 +3220,8 @@ msgstr ""
 "{0} 사용 가능!\n"
 "<size=9>게임을 구입한 곳에서 다운로드하십시오.</size>"
 
-#: c:\work\parkitect unity 5.4\assets\scripts\ui\alphasplash.cs:179
-#: 5.4\assets\scripts\ui\splashmenu.cs:363
+#: c:\work\parkitect unity 5.4\assets\scripts\ui\alphasplash.cs:180
+#: 5.4\assets\scripts\ui\splashmenu.cs:379
 msgid "Game is up to date"
 msgstr "게임이 업데이트되었습니다"
 
@@ -3753,7 +3812,7 @@ msgstr ""
 "예를 들어서, 지형을 살짝 올리는 방법이 있습니다..."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:208
+#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:210
 msgid ""
 "See how this improved the ratings?\n"
 "You could also place some fences..."
@@ -3762,12 +3821,12 @@ msgstr ""
 "아니면 울타리를 좀 놓아도 됩니다..."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:210
+#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:214
 msgid "Or plant some trees..."
 msgstr "아니면 나무를 심어도 됩니다..."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:212
+#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:218
 msgid ""
 "Or you could block the view using hedges, or maybe rocks.\n"
 "Or you could get really involved and construct an entire custom building "
@@ -3779,19 +3838,19 @@ msgstr ""
 "수치를 개선하는 방법은 아주 많이 있습니다."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:216
+#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:222
 msgid "Building coasters"
 msgstr "코스터 만들기"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:217
+#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:223
 msgid ""
 "A good coaster will attract many new guests to our park, so let's learn how "
 "to build one!"
 msgstr "좋은 코스터는 우리 공원에 새로운 손님을 많이 데려올 테니, 어떻게 짓는지 배워보도록 합시다!"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:218
+#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:224
 msgid ""
 "Here's the initial station piece for the Junior Coaster that we will build.\n"
 "\n"
@@ -3802,12 +3861,12 @@ msgstr ""
 "간단히 이 조각을 오른쪽 클릭해서 트랙 편집을 시작합니다."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:253
+#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:259
 msgid "Now we go back to a flat part."
 msgstr "이제 평지 부분으로 되돌아갑시다."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:269
+#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:275
 msgid ""
 "Now we go back to a flat part again. The train has already picked up some "
 "speed at this point, so a quick transition might feel a bit rough. We can "
@@ -3822,7 +3881,7 @@ msgstr ""
 "조각 크기를 2로 설정하고 평지 조각으로 전환하세요."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:273
+#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:279
 msgid ""
 "Going straight all the time is a bit boring... let's build a curve!\n"
 "Flat curves at high speeds can also feel quite uncomfortable, so you might "
@@ -3832,7 +3891,7 @@ msgstr ""
 "높은 속력으로 평범한 커브를 돌면 매우 불편하게 느껴질 수 있으므로, 뱅킹 휠을 이용해서 트랙을 기울여 뱅크를 주어야 합니다."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:277
+#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:283
 msgid ""
 "And let's build another curve.\n"
 "\n"
@@ -3852,7 +3911,7 @@ msgstr ""
 "차량이 가속 또는 감속할 때 발생합니다."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:281
+#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:287
 msgid ""
 "Driving over hills with some speed pushes the passengers out of their seat. "
 "This is called air time and is pretty fun!\n"
@@ -3864,7 +3923,7 @@ msgstr ""
 "조각 크기를 3으로 설정하고 위쪽 경사를 만듭니다."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:285
+#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:291
 msgid ""
 "The train loses speed over time. It is usually a good idea to make your "
 "hills a bit smaller than the previous one, otherwise the train might not "
@@ -3878,7 +3937,7 @@ msgstr ""
 "아래 방향 경사를 건설하세요."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:288
+#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:294
 msgid ""
 "You surely have noticed by now that there are a few differently steep slope "
 "options available. You can mix these pretty much however you want.\n"
@@ -3890,7 +3949,7 @@ msgstr ""
 "조각 크기를 2로 설정하고 작은 경사를 만드세요."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:292
+#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:298
 msgid ""
 "Let's start thinking about bringing the track back to the station. This will "
 "be a fairly short coaster, but it's only the tutorial after all!\n"
@@ -3913,12 +3972,12 @@ msgstr ""
 "조각 크기를 2로 설정하고 평지 조각을 건설하세요."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:296
+#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:302
 msgid "Set the segment size to 5 and build a flat segment."
 msgstr "조각 크기를 5로 설정하고 평지 조각을 건설하세요."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:300
+#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:306
 msgid ""
 "The train is still quite fast, and we need to take a few more turns to get "
 "back to the station. We could build some banked curves again, but since we "
@@ -3938,17 +3997,17 @@ msgstr ""
 "조각 크기를 3으로 설정하고 브레이크를 지으세요."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:305
+#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:311
 msgid "Set the segment size to 2 and build a curve."
 msgstr "조각 크기를 2로 설정하고 커브를 만드세요."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:309
+#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:315
 msgid "Set the segment size to 1 and build a curve."
 msgstr "조각 크기를 1로 설정하고 커브를 만드세요."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:313
+#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:319
 msgid ""
 "Whoops, we are misaligned by a tile. We could go back a step and increase "
 "the size of the curve, but sometimes this is not possible. Another option is "
@@ -3963,7 +4022,7 @@ msgstr ""
 "S자 트랙을 지어 트랙을 완성하세요."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:316
+#: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:322
 msgid ""
 "Great!\n"
 "This may be a fairly short and simple coaster, but now you know everything "
@@ -4028,7 +4087,7 @@ msgstr "단축키: {0}"
 #: 5.4\assets\scripts\ui\windows\parkvisualizerswindow.cs:40
 #: 5.4\assets\scripts\ui\windows\attractioninfo\attractionsettingspanel.cs:85
 #: 5.4\assets\scripts\ui\windows\scenarioeditor\goals\goalseditortab.cs:22
-#: 5.4\assets\scripts\ui\windows\settings\graphicssettingstab.cs:71
+#: 5.4\assets\scripts\ui\windows\settings\graphicssettingstab.cs:88
 #: 5.4\assets\scripts\ui\windows\shopinfo\shopproductsinfo.cs:46
 #: 5.4\assets\scripts\utility\textutility.cs:252
 msgid "None"
@@ -4583,12 +4642,26 @@ msgstr "머무른 시간: {0}"
 msgid "Money spent: {0}"
 msgstr "쓴 돈: {0}"
 
+#. / 0 = number
+#: c:\work\parkitect unity
+#: 5.4\assets\scripts\ui\windows\guestinfo\guestinfotab.cs:39
+#, csharp-format
+msgid "Attractions visited: {0}"
+msgstr "탑승한 놀이기구: {0}"
+
 #. / 0 = attraction name, 1 = number
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\windows\guestinfo\guestinfotab.cs:44
+#: 5.4\assets\scripts\ui\windows\guestinfo\guestinfotab.cs:46
 #, csharp-format
 msgid "Favorite attraction: {0} (Visits: {1})"
 msgstr "가장 좋아하는 놀이기구: {0} (방문: {1})"
+
+#. / 0 = number
+#: c:\work\parkitect unity
+#: 5.4\assets\scripts\ui\windows\guestinfo\guestinfotab.cs:50
+#, csharp-format
+msgid "Products bought: {0}"
+msgstr "구입한 물건: {0}"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\guestinfo\personstatstab.cs:34
@@ -4819,26 +4892,30 @@ msgstr "청결도"
 
 #. / 0 = number
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\windows\parkfinance\loanplanentry.cs:71
+#: 5.4\assets\scripts\ui\windows\parkfinance\loanplanentry.cs:73
 #, csharp-format
 msgid "You may not take more than {0} loans at once"
 msgstr "한 번에 {0}개 초과의 대출을 받을 수 없습니다."
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\windows\parkfinance\loanplanentry.cs:74
+#: 5.4\assets\scripts\ui\windows\parkfinance\loanplanentry.cs:76
 msgid "Take"
 msgstr "대출"
 
 #. / 0 = money amount, 1 = money amount
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\windows\parkfinance\loanplanentry.cs:85
+#: 5.4\assets\scripts\ui\windows\parkfinance\loanplanentry.cs:87
+#: 5.4\assets\scripts\ui\windows\parkfinance\loanplanentry.cs:129
 #, csharp-format
-msgid ""
-"<b>Monthly Fee:</b> {0}\n"
-"= {1}"
-msgstr ""
-"<b>월 이율:</b> {0}\n"
-"= {1}"
+msgid "<b>Monthly Fee:</b> {0}"
+msgstr "<b>월 이자:</b> {0}"
+
+#. / 0 = money amount, 1 = money amount
+#: c:\work\parkitect unity
+#: 5.4\assets\scripts\ui\windows\parkfinance\loanplanentry.cs:129
+#, csharp-format
+msgid "<b>Remaining loan:</b> {0}"
+msgstr "<b>남은 대출금:</b> {0}"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\parkfinance\marketresearchtab.cs:165
@@ -4966,23 +5043,25 @@ msgstr "임페리얼법"
 msgid "Monitor {0}"
 msgstr "모니터 {0}"
 
+#. / graphics option for uncapped framerate
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\windows\settings\graphicssettingstab.cs:66
-msgid "30 FPS"
-msgstr "30 FPS"
+#: 5.4\assets\scripts\ui\windows\settings\graphicssettingstab.cs:68
+msgid "Uncapped"
+msgstr "제한 해제"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\windows\settings\graphicssettingstab.cs:67
-msgid "60 FPS"
-msgstr "60 FPS"
+#: 5.4\assets\scripts\ui\windows\settings\graphicssettingstab.cs:78
+#, csharp-format
+msgid "{0} FPS"
+msgstr "{0} FPS"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\windows\settings\graphicssettingstab.cs:72
+#: 5.4\assets\scripts\ui\windows\settings\graphicssettingstab.cs:89
 msgid "Fast Approximate Anti-aliasing (FXAA)"
 msgstr "Fast Approximate Anti-aliasing (FXAA)"
 
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\ui\windows\settings\graphicssettingstab.cs:73
+#: 5.4\assets\scripts\ui\windows\settings\graphicssettingstab.cs:90
 msgid "Temporal Anti-aliasing (TAA)"
 msgstr "Temporal Anti-aliasing (TAA)"
 
@@ -5244,7 +5323,7 @@ msgid "This should be placed on the border of the park."
 msgstr "공원 경계에 배치해야 합니다."
 
 #. / 0 = number
-#: c:\work\parkitect unity 5.4\assets\scripts\utilitybuildings\depot.cs:192
+#: c:\work\parkitect unity 5.4\assets\scripts\utilitybuildings\depot.cs:191
 #, csharp-format
 msgid "<b>Crates delivered:</b> {0}"
 msgstr "<b>운반한 상자 수:</b> {0}"
@@ -5257,7 +5336,7 @@ msgstr "<b>Staff served:</b> {0}"
 
 #. / 0 = number
 #: c:\work\parkitect unity
-#: 5.4\assets\scripts\utilitybuildings\trashchute.cs:134
+#: 5.4\assets\scripts\utilitybuildings\trashchute.cs:133
 #, csharp-format
 msgid "<b>Trash bags transported:</b> {0}"
 msgstr "<b>쓰레기 봉지 운반:</b> {0}"
@@ -5267,15 +5346,15 @@ msgctxt "Item"
 msgid "Park Map"
 msgstr "공원 지도"
 
-#: Ballcap BallcapBackwards
-msgctxt "Item"
-msgid "Ballcap"
-msgstr "야구 모자"
-
 #: Glasses
 msgctxt "Item"
 msgid "Glasses"
 msgstr "안경"
+
+#: Ballcap BallcapBackwards
+msgctxt "Item"
+msgid "Ballcap"
+msgstr "야구 모자"
 
 #: BackpackHome BackpackPark
 msgctxt "Item"
@@ -5285,7 +5364,7 @@ msgstr "가방"
 #: BackpackPuglie
 msgctxt "Item"
 msgid "Pugliepack"
-msgstr "푸기팩"
+msgstr "멍멍이백"
 
 #: BalloonDiamond
 msgctxt "Item"
@@ -5467,10 +5546,15 @@ msgctxt "Item"
 msgid "Festive Top Hat"
 msgstr "축제 모자"
 
-#: HatGibus
+#: HatKenney
 msgctxt "Item"
-msgid "Spooky Gibus"
-msgstr "으스스한 오페라 모자"
+msgid "Glas Bowl"
+msgstr "글라스 보울"
+
+#: HatSpookyTopHat
+msgctxt "Item"
+msgid "Spooky Top Hat"
+msgstr "으스스한 모자"
 
 #: MedievalHat
 msgctxt "Item"
@@ -5549,6 +5633,11 @@ msgctxt "BuildableObject"
 msgid "Enterprise"
 msgstr "엔터프라이즈"
 
+#: EyesBigSingle EyesBig EyesSmall
+msgctxt "BuildableObject"
+msgid "Eyes"
+msgstr "눈"
+
 #: LogSmall1 LogSmall2
 msgctxt "BuildableObject"
 msgid "Log (Small)"
@@ -5568,11 +5657,6 @@ msgstr "탄광 트랙"
 msgctxt "BuildableObject"
 msgid "Log"
 msgstr "통나무"
-
-#: EyesBigSingle EyesBig EyesSmall
-msgctxt "BuildableObject"
-msgid "Eyes"
-msgstr "눈"
 
 #: CowSkull CowSkullWall
 msgctxt "BuildableObject"
@@ -5887,7 +5971,7 @@ msgstr "비행기 회전목마"
 #: PowerSurge
 msgctxt "BuildableObject"
 msgid "Power Surge"
-msgstr "전력 초과"
+msgstr "파워 서지"
 
 #: Skyfall
 msgctxt "BuildableObject"
@@ -5972,7 +6056,7 @@ msgstr "햄버거 가게"
 #: CandyStall
 msgctxt "BuildableObject"
 msgid "Candy"
-msgstr "사탕"
+msgstr "사탕 가게"
 
 #: CashMachine
 msgctxt "BuildableObject"
@@ -5987,7 +6071,7 @@ msgstr "중국 음식점"
 #: CottonCandyStall
 msgctxt "BuildableObject"
 msgid "Cotton Candy"
-msgstr "솜사탕"
+msgstr "솜사탕 가게"
 
 #: CustomizableShop
 msgctxt "BuildableObject"
@@ -6077,7 +6161,7 @@ msgstr "칠면조 다리 가게"
 #: UmbrellaStall
 msgctxt "BuildableObject"
 msgid "Umbrellas"
-msgstr "우산"
+msgstr "우산 가게"
 
 #: VendingMachine
 msgctxt "BuildableObject"
@@ -6611,6 +6695,11 @@ msgctxt "BuildableObject"
 msgid "Smoke Emitter"
 msgstr "연기 발생기"
 
+#: SnowmanHat SnowmanNoHat
+msgctxt "BuildableObject"
+msgid "Snowman"
+msgstr "눈사람"
+
 #: SparkEmitter
 msgctxt "BuildableObject"
 msgid "Spark Emitter"
@@ -6739,7 +6828,7 @@ msgstr "처마끝 꼭대기"
 #: RoofBorderCorner45 RoofBorderCornerRound
 msgctxt "BuildableObject"
 msgid "Cornice Corner"
-msgstr "테두리 구석"
+msgstr "처마끝 구석"
 
 #: RoofBorderDiagonal
 msgctxt "BuildableObject"
@@ -7763,7 +7852,7 @@ msgctxt "BuildableObject"
 msgid "Trash Chute"
 msgstr "쓰레기 수거장"
 
-#: ScifiDishOpen ScifiSpotlight MinecartTrackStraight EyesBigSingle EyesBig
+#: ScifiDishOpen EyesBigSingle ScifiSpotlight MinecartTrackStraight EyesBig
 #: CowSkull Navybuoy BadSceneryRatingSource Barrel01 Barrel02
 #: Billboard1_HappyCo Billboard1_HappyCola Billboard1_HappyTire
 #: Billboard2_HappyCo Billboard2_HappyCola Billboard2_HappyTire
@@ -7779,26 +7868,27 @@ msgstr "쓰레기 수거장"
 #: LampWallIron02 LampWallIron03 LampWallLog LanternPaper01 LanternPaper02
 #: LanternPaper03 LanternPaper04 LanternString LanternStringDiagonal
 #: LightFloating MapBoard OrbLamp ParkEntranceBooth01 Sculpture01 Sculpture02
-#: Sculpture04 Sculpture05 Sculpture06 SmokeNozzle SparkEmitter SplashParticle
-#: Spotlight StatueElephant StatueGiraffe StatueHorse StatueLion StatueSnake
-#: Anvil ArcheryTarget Basket01 Basket02 Basket03 Basket04 BrazierIron Cannon
-#: Chest01 Chest02 Flag01a Flag01b Flag02a Flag02b Flag03a Flag03b Haybale01
-#: Haybale02 Haybale03 Sack01 Sack02 Sack03 Shield01 Shield02 TorchIron
-#: TorchWood WeaponStand01 WeaponStand02 WellMedieval WellMedieval02
-#: WellMedieval03 FlagSign01 FlagSign02 RoadBarrier RoadBarrierCorner01
-#: RoadBarrierCorner02 Tire01 Tire02 Tire03 TireBarrier01 TireBarrier02
-#: TireBarrier03 TireStack TrafficCone01 TrafficCone02 CrateScifi
-#: LampWallScifi Rocketship ScifiAntennaLarge ScifiAntennaSmall ScifiRailing
-#: ScifiRelay ScifiStatue ScifiTesla ScifiDishClosed BonePile01 BonePile02
-#: BonePile03 BurialMound Candles01 Candles02 Candles03 Cauldron Coffin01
-#: Coffin02 EyesSmall Headstone01 Headstone01Broken Headstone01Cracked
-#: Headstone02 Headstone02Broken Mausoleum SkeletonGround01 SkeletonGround02
-#: SkeletonPile SkeletonSexy SkeletonStanding Skull WindmillFarm BrokenPipe
-#: Cog01A Cog01B Cog02A Cog02B FlywheelA FlywheelB GearWedgeA GearWedgeB
-#: GearWedgeInverse PistonLarge PistonLargeH PistonSmall PistonSmallH
-#: CowSkullWall Crate LampWallMedieval Lantern Minecart MinecartTrackCorner
-#: MinecartTrackSlope TNTCrate TrackBumper Trough Veranda WagonWheelHorizontal
-#: WagonWheelVertical WaterTowerWestern
+#: Sculpture04 Sculpture05 Sculpture06 SmokeNozzle SnowmanHat SnowmanNoHat
+#: SparkEmitter SplashParticle Spotlight StatueElephant StatueGiraffe
+#: StatueHorse StatueLion StatueSnake Anvil ArcheryTarget Basket01 Basket02
+#: Basket03 Basket04 BrazierIron Cannon Chest01 Chest02 Flag01a Flag01b
+#: Flag02a Flag02b Flag03a Flag03b Haybale01 Haybale02 Haybale03 Sack01 Sack02
+#: Sack03 Shield01 Shield02 TorchIron TorchWood WeaponStand01 WeaponStand02
+#: WellMedieval WellMedieval02 WellMedieval03 FlagSign01 FlagSign02
+#: RoadBarrier RoadBarrierCorner01 RoadBarrierCorner02 Tire01 Tire02 Tire03
+#: TireBarrier01 TireBarrier02 TireBarrier03 TireStack TrafficCone01
+#: TrafficCone02 CrateScifi LampWallScifi Rocketship ScifiAntennaLarge
+#: ScifiAntennaSmall ScifiRailing ScifiRelay ScifiStatue ScifiTesla
+#: ScifiDishClosed BonePile01 BonePile02 BonePile03 BurialMound Candles01
+#: Candles02 Candles03 Cauldron Coffin01 Coffin02 EyesSmall Headstone01
+#: Headstone01Broken Headstone01Cracked Headstone02 Headstone02Broken
+#: Mausoleum SkeletonGround01 SkeletonGround02 SkeletonPile SkeletonSexy
+#: SkeletonStanding Skull WindmillFarm BrokenPipe Cog01A Cog01B Cog02A Cog02B
+#: FlywheelA FlywheelB GearWedgeA GearWedgeB GearWedgeInverse PistonLarge
+#: PistonLargeH PistonSmall PistonSmallH CowSkullWall Crate LampWallMedieval
+#: Lantern Minecart MinecartTrackCorner MinecartTrackSlope TNTCrate
+#: TrackBumper Trough Veranda WagonWheelHorizontal WagonWheelVertical
+#: WaterTowerWestern
 msgid "Props"
 msgstr "소품"
 
@@ -7885,9 +7975,9 @@ msgstr "돌"
 #: LampWallLog LanternPaper01 LanternPaper02 LanternPaper03 LanternPaper04
 #: LanternString LanternStringDiagonal LightFloating MapBoard ModernAwning
 #: ParkEntranceBooth01 Scaffold01 Scaffold02 Scaffold03 ScaffoldCap SignHealth
-#: SignInfo SignWashroom SpireGenericA SpireGenericB Spotlight UmbrellaRound01
-#: UmbrellaRound02 UmbrellaSquare01 UmbrellaSquare02 WallClockIron
-#: WindowBayGeneric WindowDiamond WindowGenericA WindowGenericB
+#: SignInfo SignWashroom SnowmanHat SnowmanNoHat SpireGenericA SpireGenericB
+#: Spotlight UmbrellaRound01 UmbrellaRound02 UmbrellaSquare01 UmbrellaSquare02
+#: WallClockIron WindowBayGeneric WindowDiamond WindowGenericA WindowGenericB
 #: BlockGenericHalf BlockGenericQuarter BorderDiagonalHalfslope
 #: BorderDiagonalSlope BorderGenericWall BorderGenericWallArch
 #: BorderGenericWallCorner BorderGenericWallCornerRound
@@ -8025,17 +8115,7 @@ msgstr "남은 공간"
 msgid "Search"
 msgstr "검색"
 
-#: LogSmall1 LogLarge2 Bullrush FlowerVine01 LogLarge1 LogSmall2 LongGrass
-#: Mushroom01 Mushroom02 Mushroom03 Mushroom04 PlanterFlowers01 PlanterGeneric
-#: PlanterIron PlanterIvy PlanterLog PlantIvy PotplantGeneric PotplantIron
-#: PotplantLog PottedPlant01 PottedPlant02 Shrub01 Shrub02 Shrub03 Shrub04
-#: Shrub05 Shrub06 ShrubTurtle WaterLily WindowBox01 WindowBox02 WindowBox03
-#: GiantMushroom Pumpkin01 Pumpkin02 PumpkinLantern PumpkinRotten SpookyShrub
-#: WesternShrub
-msgid "Plants"
-msgstr "식물"
-
-#: MinecartTrackStraight EyesBigSingle EyesBig CowSkull Barrel01 Barrel02
+#: EyesBigSingle MinecartTrackStraight EyesBig CowSkull Barrel01 Barrel02
 #: Vase01 Vase02 Vase03 MapBoard Anvil Basket01 Basket02 Basket03 Basket04
 #: BrazierIron Chest01 Chest02 Haybale01 Haybale02 Haybale03 Sack01 Sack02
 #: Sack03 Shield01 Shield02 Tire01 Tire02 Tire03 TireStack TrafficCone01
@@ -8050,6 +8130,26 @@ msgstr "식물"
 msgid "Small"
 msgstr "소형"
 
+#: EyesBigSingle EyesBig BonePile01 BonePile02 BonePile03 BurialMound
+#: Candles01 Candles02 Candles03 Cauldron Coffin01 Coffin02 EyesSmall
+#: Headstone01 Headstone01Broken Headstone01Cracked Headstone02
+#: Headstone02Broken Mausoleum Pumpkin01 Pumpkin02 PumpkinLantern
+#: PumpkinRotten SkeletonGround01 SkeletonGround02 SkeletonPile SkeletonSexy
+#: SkeletonStanding Skull SpookyShrub SpookyTree SpookyTree02 SpookyTree03
+#: SpookyTreePine SpookyTreeShrub WindmillFarm
+msgid "Spooky Props"
+msgstr "으스스한 테마"
+
+#: LogSmall1 LogLarge2 Bullrush FlowerVine01 LogLarge1 LogSmall2 LongGrass
+#: Mushroom01 Mushroom02 Mushroom03 Mushroom04 PlanterFlowers01 PlanterGeneric
+#: PlanterIron PlanterIvy PlanterLog PlantIvy PotplantGeneric PotplantIron
+#: PotplantLog PottedPlant01 PottedPlant02 Shrub01 Shrub02 Shrub03 Shrub04
+#: Shrub05 Shrub06 ShrubTurtle WaterLily WindowBox01 WindowBox02 WindowBox03
+#: GiantMushroom Pumpkin01 Pumpkin02 PumpkinLantern PumpkinRotten SpookyShrub
+#: WesternShrub
+msgid "Plants"
+msgstr "식물"
+
 #: MinecartTrackStraight CowSkull Barrel01 Barrel02 CactusAloe01 CactusAloe02
 #: CactusBarrel01 CactusBarrel02 CactusBarrel03 CactusPear01 CactusPear02
 #: CactusSaguero01 CactusSaguero02 CactusSaguero03 CowSkullWall Crate
@@ -8060,16 +8160,6 @@ msgstr "소형"
 #: WaterTowerWestern WesternShrub
 msgid "Western Props"
 msgstr "서부 테마"
-
-#: EyesBigSingle EyesBig BonePile01 BonePile02 BonePile03 BurialMound
-#: Candles01 Candles02 Candles03 Cauldron Coffin01 Coffin02 EyesSmall
-#: Headstone01 Headstone01Broken Headstone01Cracked Headstone02
-#: Headstone02Broken Mausoleum Pumpkin01 Pumpkin02 PumpkinLantern
-#: PumpkinRotten SkeletonGround01 SkeletonGround02 SkeletonPile SkeletonSexy
-#: SkeletonStanding Skull SpookyShrub SpookyTree SpookyTree02 SpookyTree03
-#: SpookyTreePine SpookyTreeShrub WindmillFarm
-msgid "Spooky Props"
-msgstr "으스스한 테마"
 
 #: PinetreeLarge01v2 BlobbyTree PinetreeLarge01 PinetreeLarge02
 #: PinetreeLarge02v2 PinetreeSmall01 PinetreeSmall01v2 PinetreeSmall02
@@ -8196,7 +8286,7 @@ msgstr "자동저장"
 
 #: WorldSfxHeader SettingsWindow
 msgid "World"
-msgstr "세계"
+msgstr "환경음"
 
 #: Header SettingsWindow
 msgid "Grid Intensity"
@@ -8255,8 +8345,8 @@ msgid "Show hint messages explaining the controls"
 msgstr "조작법을 설명하는 힌트 메시지 보기"
 
 #: Text SettingsWindow
-msgid "Mod documention"
-msgstr "모드 관련 문서"
+msgid "Mod documentation"
+msgstr "모드 문서"
 
 #: BackgroundMusicHeader SettingsWindow
 msgid "Background Music"
@@ -8310,6 +8400,10 @@ msgstr "더스티 델타"
 #: Text
 msgid "Park Plains"
 msgstr "파크 플레인"
+
+#: Collider
+msgid "Create your own scenarios for sandbox mode"
+msgstr "모래상자 모드에서 당신만의 시나리오를 만들어보세요"
 
 #: Text
 msgid "Coral Island"
@@ -8371,6 +8465,10 @@ msgstr "건설 도전"
 msgid "You can play this scenario in sandbox mode now."
 msgstr "이제 이 시나리오를 모래상자 모드에서 플레이할 수 있습니다."
 
+#: Collider
+msgid "Load your previous parks or start a new one in sandbox mode"
+msgstr "이전에 플레이하던 공원을 불러오거나 모래상자 모드에서 새 공원을 시작합니다"
+
 #: Description
 msgid ""
 "That's the end of this demo, but just the start of your theme park building "
@@ -8399,6 +8497,10 @@ msgstr "시나리오 편집"
 #: Text
 msgid "Crossway Sea"
 msgstr "크로스웨이 해"
+
+#: Text
+msgid "Discord"
+msgstr "디스코드"
 
 #: Text
 msgid "Steam Forums"
@@ -8439,6 +8541,12 @@ msgstr "신비한 사막"
 #: Text
 msgid "Subreddit"
 msgstr "서브레딧"
+
+#: Collider
+msgid ""
+"Play through the tutorial and many scenarios with increasingly difficult "
+"challenges and goals"
+msgstr "튜토리얼을 포함해서 점차 어려워지는 도전 과제와 목표를 가진 시나리오를 플레이할 수 있습니다"
 
 #: Title
 msgid "Contact & Issue Reporting"
@@ -9028,9 +9136,28 @@ msgstr "폭풍우"
 msgid "Sunny"
 msgstr "맑음"
 
+#: RecentRatings ParkInfoWindow
+msgid "Recent ratings:"
+msgstr "최근 평가"
+
 #: Placeholder ParkInfoWindow
 msgid "Park name"
 msgstr "공원 이름"
+
+#: CurrentRatings ParkInfoWindow
+msgid ""
+"Ratings based on the stats of all the guests who are currently in your park"
+msgstr "현재 공원에 있는 모든 손님과 관련된 통계에 기반한 수치입니다."
+
+#: HistoricRatings ParkInfoWindow
+msgid ""
+"Ratings based on feedback received from guests when they left your park.\n"
+"\"Experiences\" rates how pleasant the entire visit was.\n"
+"\"Prices\" rates how fair the prices for everything the guests bought was."
+msgstr ""
+"손님이 공원을 떠날 때 받았던 피드백에 기반한 수치입니다.\n"
+"\"체험\" 수치는 전체적으로 방문한 시설이 얼마나 즐거웠는지를 나타냅니다.\n"
+"\"가격\" 수치는 손님이 구입했던 모든 것의 가격이 얼마나 적절했는지를 나타냅니다."
 
 #: Title ParkFinanceWindow
 msgid "Running Campaigns"
@@ -9108,6 +9235,14 @@ msgstr "지형 편집 금지"
 msgid "Can't change park entrance fee"
 msgstr "공원 입장료 변경 불가"
 
+#: CurrentFactorsLabel ParkInfoWindow
+msgid "Ratings based on current factors"
+msgstr "현재 상태로 본 평가"
+
+#: HistoricFactorsLabel ParkInfoWindow
+msgid "Ratings left by your guests"
+msgstr "손님들이 남긴 평가"
+
 #: Label ResearchWindow
 msgid "Next results in:"
 msgstr "다음 결과 발표:"
@@ -9181,10 +9316,6 @@ msgstr "낮/밤"
 msgid "Visualizers"
 msgstr "시각화 도구"
 
-#: CurrentFactorsLabel
-msgid "Ratings based on current factors"
-msgstr "현재 상태로 본 평가"
-
 #: TimeUntilNextMonthText
 msgid "Time until next month"
 msgstr "다음 달까지 남은 시간"
@@ -9205,17 +9336,9 @@ msgstr "거의 다 되었습니다!"
 msgid "Park Info"
 msgstr "공원 정보"
 
-#: HistoricFactorsLabel
-msgid "Ratings left by your guests"
-msgstr "손님들이 남긴 평가"
-
 #: TooltipZone
 msgid "Number of guests currently in the park"
 msgstr "현재 공원 안에 있는 손님 수"
-
-#: RecentRatings
-msgid "Recent ratings:"
-msgstr "최근 평가"
 
 #: UtilityBuildingBuilder
 msgid "Park Utilities"
@@ -9260,6 +9383,14 @@ msgstr "[[BuildingRotateObject]]"
 #: HintMessages InputManager
 msgid "Rotate object"
 msgstr "오브젝트 회전"
+
+#: HintMessages
+msgid "[[BuildingIncreaseObjectSize]] / [[BuildingDecreaseObjectSize]]"
+msgstr "[[BuildingIncreaseObjectSize]] / [[BuildingDecreaseObjectSize]]"
+
+#: HintMessages
+msgid "Change object size"
+msgstr "오브젝트 크기 변경"
 
 #: HintMessages
 msgid "Right mouse button"
@@ -9369,8 +9500,7 @@ msgid ""
 "\n"
 "Our 2.619 Kickstarter backers and all of the Early Access supporters for "
 "allowing us to make this game!"
-msgstr ""
-"\n"
+msgstr "\n"
 "그리고\n"
 "\n"
 "이 게임을 만들 수 있게 해주신 우리의 2,619명의 선발 후원자와 모든 얼리 엑세스 지원자들에게 감사드립니다!"
@@ -11010,6 +11140,15 @@ msgstr "추방"
 msgid "Receive activity notifications"
 msgstr "활동 정보 알림"
 
+#: GuestInfoWindow
+msgid ""
+"This guest is especially interested in rides of this intensity range. After "
+"spending some time in the park they can become interested in a wider range "
+"of rides."
+msgstr ""
+"이 손님은 특별히 이러한 격렬도 범위를 가진 놀이기구를 선호합니다. 공원에서 어느 정도의 시간을 보낸 뒤에야 더 넓은 범위의 놀이기구에 "
+"관심을 가지게 될 것이빈다."
+
 #: LoadGameWindow
 msgid "Load Park"
 msgstr "공원 불러오기"
@@ -12123,6 +12262,11 @@ msgstr "밴드 오르간: 전통적"
 
 #: SoundAssetManager
 msgctxt "Music"
+msgid "Street Organ"
+msgstr "스트리트 오르간"
+
+#: SoundAssetManager
+msgctxt "Music"
 msgid "Black Lights (Techno)"
 msgstr "Popped Collars (테크노)"
 
@@ -12185,4 +12329,14 @@ msgstr "폴카"
 msgctxt "Music"
 msgid "Calm"
 msgstr "Calm"
+
+#: SoundAssetManager
+msgctxt "Music"
+msgid "Barollerquoster"
+msgstr "Barollerquoster"
+
+#: SoundAssetManager
+msgctxt "Music"
+msgid "Winter Funderland"
+msgstr "Winter Funderland"
 
