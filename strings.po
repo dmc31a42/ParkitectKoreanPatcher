@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-12-16 10:24+0000\n"
+"PO-Revision-Date: 2018-12-16 07:52+0000\n"
 "Last-Translator: Willem Lee <telk5093@gmail.com>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -3744,14 +3744,14 @@ msgid ""
 msgstr ""
 "다른 대안으로는 운송 시스템을 이용하는 방법이 있습니다. 상자를 공원 안의 다른 장소로 빠르게(하지만 비싸게!) 옮길 수 있습니다.\n"
 "\n"
-"하이라이트된 영역에 창고를 놓아봅시다."
+"하이라이트된 영역에 물류 창고를 놓아봅시다."
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:193
 msgid ""
 "Next, we'll have to connect the underground connectors of the Depot and the "
 "Deliveries building using tubes."
-msgstr "다음으로, 물류 센터와 창고의 지하에 있는 연결기를 튜브를 이용해서 연결해줘야 합니다."
+msgstr "다음으로, 물류 센터와 물류 창고의 지하에 있는 연결기를 튜브를 이용해서 연결해줘야 합니다."
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:197
@@ -3759,8 +3759,8 @@ msgid ""
 "And finally, we need to tell the Depot which crates it should receive.\n"
 "Close the tube builder, then click on the Depot and add the two shops to it."
 msgstr ""
-"마지막으로, 창고가 어떤 상자를 받을 지 알려줘야 합니다.\n"
-"튜브 건설 창을 닫고, 창고를 클릭해서 상점 두 개를 추가해줍니다."
+"마지막으로, 물류 창고가 어떤 상자를 받을 지 알려줘야 합니다.\n"
+"튜브 건설 창을 닫고, 물류 창고를 클릭해서 상점 두 개를 추가해줍니다."
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:200
@@ -3771,7 +3771,7 @@ msgid ""
 "Now, there's just one small problem..."
 msgstr ""
 "잘 하셨습니다!\n"
-"이제 배달부가 저 멀리에 있는 물류 센터로 가는 대신, 이 창고에서 상자를 들어서 상점에 운반해줄 것입니다.\n"
+"이제 배달부가 저 멀리에 있는 물류 센터로 가는 대신, 이 물류 창고에서 상자를 들어서 상점에 운반해줄 것입니다.\n"
 "이제 작은 문제가 하나 남았습니다."
 
 #: c:\work\parkitect unity
@@ -3785,7 +3785,7 @@ msgid ""
 "doesn't look so nice to your guests."
 msgstr ""
 "손님들은 공원에 온전히 몰입하는 것을 좋아합니다. 무대 뒤에서 공원이 어떻게 운영되고 있는지 알고싶지 않아 합니다.\n"
-"손님들의 시야에 공원 시설 건물을 곧바로 들어올 때마다 손님들의 몰입도가 떨어집니다.\n"
+"손님들의 시야에 공원 시설 건물이 곧바로 들어올 때마다 손님들의 몰입도가 떨어집니다.\n"
 "꾸미기 시각화 도구를 통해 손님들에게 멋있게 보이지 않는 곳을 개선할 만한 좋은 아이디어를 찾아봅시다."
 
 #: c:\work\parkitect unity
@@ -3808,7 +3808,7 @@ msgid ""
 "To improve this, the Depot should be hidden.\n"
 "For example, you could raise the terrain a bit..."
 msgstr ""
-"이를 개선하기 위해서는, 창고를 가려야 합니다.\n"
+"이를 개선하기 위해서는, 물류 창고를 가려야 합니다.\n"
 "예를 들어서, 지형을 살짝 올리는 방법이 있습니다..."
 
 #: c:\work\parkitect unity
@@ -3834,7 +3834,7 @@ msgid ""
 "There are many ways of doing this."
 msgstr ""
 "생울타리나, 아니면 돌을 놓아도 좋습니다.\n"
-"아니면 창고 근처를 완전히 건물로 멋있게 감싸는 맞춤형 건물을 만들어 감추어도 됩니다!\n"
+"아니면 물류 창고 근처를 완전히 건물로 멋있게 감싸는 맞춤형 건물을 만들어 감추어도 됩니다!\n"
 "수치를 개선하는 방법은 아주 많이 있습니다."
 
 #: c:\work\parkitect unity
@@ -4034,7 +4034,7 @@ msgstr ""
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\tutorial\steps\stepbuildtracksegment.cs:15
 msgid "Please follow the tutorial steps."
-msgstr "튜토리얼 단계를 따라해보세요."
+msgstr "튜토리얼의 안내 단계대로 따라해주세요."
 
 #. / 0 = number
 #: c:\work\parkitect unity
@@ -5961,7 +5961,7 @@ msgstr "전망탑"
 #: Orbiter
 msgctxt "BuildableObject"
 msgid "Orbiter"
-msgstr "인공위성"
+msgstr "오비터"
 
 #: PlaneCarousel
 msgctxt "BuildableObject"
@@ -5986,7 +5986,7 @@ msgstr "나선 미끄럼틀"
 #: StarShape
 msgctxt "BuildableObject"
 msgid "Star Shape"
-msgstr "별 모양"
+msgstr "스타 셰이프"
 
 #: SwingingShip
 msgctxt "BuildableObject"
@@ -8601,7 +8601,7 @@ msgid ""
 msgstr ""
 "<b>수송 튜브</b>\n"
 "\n"
-"이 튜브를 이용해서 창고와 물류 센터의 지하에 있는 연결기 사이를 연결하세요."
+"이 튜브를 이용해서 물류 창고와 물류 센터의 지하에 있는 연결기 사이를 연결하세요."
 
 #: SeeThroughObjectsAlphaSlider ParkVisualizersWindow
 msgid "Hidden object transparency"
@@ -8740,7 +8740,7 @@ msgid ""
 msgstr ""
 "<b>배달부</b>\n"
 "\n"
-"배달부는 창고에서 상점으로 물건을 운반합니다."
+"배달부는 물류 창고에서 상점으로 물건을 운반합니다."
 
 #: MechanicManagementTab TitleText StaffManagementWindow
 msgid "Mechanics"
@@ -10491,7 +10491,7 @@ msgstr "폭우가 끝날 때까지 새로운 손님을 받지 않습니다"
 
 #: BlockBrakeSettingsUI
 msgid "Trim speed if next block is clear"
-msgstr "다음 블록이 비었으면 속도 줄이기"
+msgstr "다음 블록이 비어 있어도 속력 줄이기"
 
 #: ChangeCarRotationSettingsUI TrackBuilderWindow
 msgid "Reset to 0"
@@ -11242,17 +11242,17 @@ msgstr "다음"
 
 #: DepotInfoWindow
 msgid "Depot"
-msgstr "창고"
+msgstr "물류 창고"
 
 #: DepotInfoWindow
 msgid "Shops getting supplied by this depot:"
-msgstr "이 창고에서 물건을 공급받을 상점:"
+msgstr "이 물류 창고에서 물건을 공급받을 상점:"
 
 #: DeliveriesBuilding
 msgid ""
 "Resources for the park are delivered here. Connect to depots with transport "
 "tubes using the underground connector."
-msgstr "공원에 필요한 물자는 여기로 배달됩니다. 수송 튜브를 이용해서 지하의 연결기와 창고를 연결하세요."
+msgstr "공원에 필요한 물자는 여기로 배달됩니다. 수송 튜브를 이용해서 지하의 연결기와 물류 창고를 연결하세요."
 
 #: Depot
 msgid ""
