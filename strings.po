@@ -12340,3 +12340,13 @@ msgctxt "Music"
 msgid "Winter Funderland"
 msgstr "윈터 펀더랜드"
 
+#: SoundAssetManager
+msgctxt "Music"
+msgid "Barollerquoster"
+msgstr "Barollerquoster"
+
+#: SoundAssetManager
+msgctxt "Music"
+msgid "Winter Funderland"
+msgstr "Winter Funderland"
+
