@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-12-18 07:06+0000\n"
+"PO-Revision-Date: 2018-12-18 11:33+0000\n"
 "Last-Translator: Willem Lee <telk5093@gmail.com>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -2702,12 +2702,12 @@ msgstr "공원에 들어 옴"
 #: 5.4\assets\scripts\people\experiences\leftattractionexperience.cs:26
 #, csharp-format
 msgid "Left {0}"
-msgstr "{0} 나가는 중"
+msgstr "{0} 나감"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\people\experiences\leftparkexperience.cs:14
 msgid "Left the park"
-msgstr "공원에서 나가는 중"
+msgstr "공원에서 나감"
 
 #. / 0 = name of attraction, 1 = duration in minutes
 #: c:\work\parkitect unity
