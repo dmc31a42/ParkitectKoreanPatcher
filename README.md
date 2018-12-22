@@ -3,5 +3,3 @@
 패치 후 파키텍트 내에서 언어를 ㅁㅁㅁ(Simplified Chinese)로 변경하세요.
 
 번역은 https://translate.zanata.org/project/view/ParkitectKorean 에서 진행합니다.
-
-현재는 테스트를 위해 생성하였습니다.
