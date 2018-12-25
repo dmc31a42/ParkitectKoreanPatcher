@@ -1,25 +1,25 @@
 {
-	"CopyResourcesManuals" : 
+	"CopyResourcesManuals" :
 	[
 		{
 			"ResourcesFileFromProjectFolder" : "Resource\\ko.po",
-			"ResourcesFileTargetRelativePath" : "StreamingAssets\\Languages\\zh_CN.po"
+			"ResourcesFileTargetRelativePath" : "StreamingAssets\\Languages\\ko.po"
 		},
 		{
 			"ResourcesFileFromProjectFolder" : "temp\\ko.po",
-			"ResourcesFileTargetRelativePath" : "StreamingAssets\\Languages\\zh_CN.po"
+			"ResourcesFileTargetRelativePath" : "StreamingAssets\\Languages\\ko.po"
 		}
 	],
 	"DataFolderName" : "Parkitect",
-	"FontPlugin" : 
+	"FontPlugin" :
 	{
-		"NGUIFontAsset" : 
+		"NGUIFontAsset" :
 		{
 			"Saveds" : []
 		},
-		"TMPFontAsset" : 
+		"TMPFontAsset" :
 		{
-			"SelectedFontAssetMapList" : 
+			"SelectedFontAssetMapList" :
 			[
 				{
 					"AssetName" : "NotoSansCJKsc-Regular SDF",
@@ -37,7 +37,7 @@
 				}
 			]
 		},
-		"UnityDefaultFont" : 
+		"UnityDefaultFont" :
 		{
 			"Saveds" : []
 		}
@@ -45,21 +45,21 @@
 	"GameName" : "Parkitect",
 	"GamePath" : "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Parkitect\\Parkitect_Data\\",
 	"MakerName" : "Texel Raptor",
-	"OnlineResources" : 
+	"OnlineResources" :
 	[
 		{
 			"URL" : "https://raw.githubusercontent.com/dmc31a42/ParkitectKoreanPatcher/master/strings.po",
 			"filePath" : "ko.po"
 		}
 	],
-	"OnlineUpdate" : 
+	"OnlineUpdate" :
 	{
 		"Selected" : "GitHub",
 		"currentVersion" : "v1.1.3",
 		"gitHubOwner" : "dmc31a42",
 		"gitHubRepo" : "ParkitectKoreanPatcher"
 	},
-	"ProjectSettings" : 
+	"ProjectSettings" :
 	{
 		"CreateCurrentVersionTxtFileAfterBuild" : false,
 		"DownloadOnlineResourcesWhenBuild" : true,
@@ -68,7 +68,7 @@
 		"ZipBuildFolderAfterBuild" : true,
 		"ZipFileName" : "ParkitectKoreanPatcher"
 	},
-	"TextPlugin" : 
+	"TextPlugin" :
 	{
 		"Done" : [],
 		"InteractWithFileTextNews" : []
