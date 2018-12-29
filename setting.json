@@ -48,7 +48,7 @@
 	"OnlineUpdate" : 
 	{
 		"Selected" : "GitHub",
-		"currentVersion" : "v1.2.0",
+		"currentVersion" : "v1.2.1",
 		"gitHubOwner" : "dmc31a42",
 		"gitHubRepo" : "ParkitectKoreanPatcher"
 	},
