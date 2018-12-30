@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-12-24 05:09+0000\n"
+"PO-Revision-Date: 2018-12-30 04:28+0000\n"
 "Last-Translator: Willem Lee <telk5093@gmail.com>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -1799,7 +1799,7 @@ msgstr "청결 수치"
 #: 5.4\assets\scripts\goals\types\parkcleanlinessgoal.cs:10
 #, csharp-format
 msgid "Have a cleanliness rating of at least {0}"
-msgstr "청결 수치 {0} 달성"
+msgstr "청결 수치 {0} 넘게 달성"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\goals\types\parkdecorationgoal.cs:4
@@ -1958,7 +1958,7 @@ msgstr "{0} 고장남"
 #: c:\work\parkitect unity 5.4\assets\scripts\jobs\repairattractionjob.cs:53
 #, csharp-format
 msgid "Repair {0}"
-msgstr "{0} 수리 중"
+msgstr "{0} 수리"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\jobs\transporttrashoutofparkjob.cs:42
@@ -6783,7 +6783,7 @@ msgstr "테두리"
 #: BorderGenericWallArch
 msgctxt "BuildableObject"
 msgid "Border (Arch)"
-msgstr "테두리 (아치)"
+msgstr "테두리 (끄트머리)"
 
 #: BorderGenericWallCorner BorderGenericWallCornerRound
 msgctxt "BuildableObject"
@@ -6798,7 +6798,7 @@ msgstr "테두리 (대각선)"
 #: BorderGenericWallDoor
 msgctxt "BuildableObject"
 msgid "Border (Door)"
-msgstr "경계선 (문)"
+msgstr "테두리 (문)"
 
 #: BorderGenericWallHalf
 msgctxt "BuildableObject"
@@ -7107,7 +7107,7 @@ msgstr "벽 (역방향 반 칸 경사)"
 #: WallBrickSlopeInverse
 msgctxt "BuildableObject"
 msgid "Wall (Inverse Slope)"
-msgstr "벽 (역방향 한 칸)"
+msgstr "벽 (역방향 경사)"
 
 #: WallGenericStephalfslope WallBrickStephalfslope
 msgctxt "BuildableObject"
@@ -7122,7 +7122,7 @@ msgstr "테두리 (반 칸 계단 경사)"
 #: WallGenericStepslope WallBrickStepslope
 msgctxt "BuildableObject"
 msgid "Wall (Step Slope)"
-msgstr "벽 (한 칸 경사)"
+msgstr "벽 (한 칸 계단 경사)"
 
 #: WallGenericStepslopeEdge
 msgctxt "BuildableObject"
@@ -11877,7 +11877,7 @@ msgid ""
 "structures to be built above tree height.\n"
 "Use the hilly terrain to your advantage by building close to the ground."
 msgstr ""
-"본래는 자연 보호 구역이었던 이 공원은, 현지 법에 따라 나무 높이 아래로 건축물을 지어야 합니다.\n"
+"이 공원은 본래 자연 보호 구역으로, 현지 법에 따라 나무 높이 위로는 건축할 수 없습니다.\n"
 "지면 가까이에 건물을 짓고 언덕이 많은 지형을 잘 활용하십시오."
 
 #: AssetManager
