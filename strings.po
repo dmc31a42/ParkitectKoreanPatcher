@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-01-14 10:50+0000\n"
+"PO-Revision-Date: 2019-01-14 12:04+0000\n"
 "Last-Translator: Willem Lee <telk5093@gmail.com>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -8210,7 +8210,7 @@ msgstr "그래픽"
 
 #: TiltShiftIntensityLabel SettingsWindow
 msgid "Tilt Shift"
-msgstr "틸트 시프트"
+msgstr "주변 흐림 효과(틸트 시프트)"
 
 #: Text SettingsWindow
 msgid "Target Framerate"
@@ -11151,7 +11151,7 @@ msgid ""
 "of rides."
 msgstr ""
 "이 손님은 특별히 이러한 격렬도 범위를 가진 놀이기구를 선호합니다. 공원에서 어느 정도의 시간을 보낸 뒤에야 더 넓은 범위의 놀이기구에 "
-"관심을 가지게 될 것이빈다."
+"관심을 가지게 될 것입니다."
 
 #: LoadGameWindow
 msgid "Load Park"
@@ -11320,7 +11320,7 @@ msgstr "알파인 코스터 터보건 썰매"
 
 #: BoatTransportCars
 msgid "Steam Wheeler"
-msgstr "증기 "
+msgstr "증기선"
 
 #: BobsledCoasterBigCars
 msgid "Bobsled Coaster Cars (6 Seats)"
@@ -11432,7 +11432,7 @@ msgstr "회전 차량"
 
 #: SpinningCoasterRoundCars
 msgid "Round Spinning Car"
-msgstr "둥근 회전 차량"
+msgstr "원형 회전 차량"
 
 #: SplashBattleTugboatCars
 msgid "Tugboats"
@@ -11806,7 +11806,8 @@ msgstr ""
 msgid ""
 "This small island park with a unique observation tower wants to attract more "
 "guests, but its cold and wet climate is keeping visitors away."
-msgstr "독특한 전망탑이 있는 이 작은 섬 공원에 손님들 더 모아야 하지만, 춥고 습한 기후 때문에 손님들이 잘 찾지 않고 있습니다."
+msgstr ""
+"독특한 전망탑이 있는 이 작은 섬 놀이공원에 더 많은 손님들을 모아야 하지만, 춥고 습한 기후 때문에 손님들이 잘 찾아오지 않습니다."
 
 #: AssetManager
 msgid ""
@@ -11830,7 +11831,7 @@ msgid ""
 "can be rainy but otherwise you can expect perfect beach weather."
 msgstr ""
 "떠들썩한 해변 도시는 모든 놀이기구가 무료여야 한다는 조건 하에 테마파크 개발을 위한 부지를 제공하고 있습니다. 겨울에 비가 올 수는 "
-"있지만 그 외에는 완벽한 해변 날씨를 기대할 수 있습니다."
+"있지만 그 외에는 완벽한 해변 날씨를 기대하셔도 좋습니다."
 
 #: AssetManager
 msgid ""
@@ -11838,8 +11839,8 @@ msgid ""
 "perfect spot for a new tourist attraction. A giant cliffside hypercoaster is "
 "the first step for this soon-to-be rollercoaster paradise."
 msgstr ""
-"충분히 넓은 토지가 있는 불모지 사막 협곡이 주어졌습니다. 새로운 관광 명소로 안성맞춤일 것 같습니다. 해안가의 거대한 하이퍼코스터가 곧 "
-"다가올 롤러코스터 파라다이스 공원의 첫 걸음이 될 것입니다."
+"충분히 넓은 토지가 있는 불모지 사막 협곡이 주어졌습니다. 새로운 관광 명소로 안성맞춤일 것 같습니다. 거대한 벼랑 옆의 하이퍼코스터가 "
+"곧 다가올 롤러코스터 파라다이스 공원의 첫 걸음이 될 것입니다."
 
 #: AssetManager
 msgid ""
@@ -11853,8 +11854,8 @@ msgid ""
 "said, the area is too good to pass up and the existing rides aren't bad once "
 "fixed. Pull this park out of the gutter and turn it into a gem."
 msgstr ""
-"놀이공원의 재앙입니다. 정비가 안 되어 있고, 더러우며, 안전하지 않습니다. 즉, 이 지역은 발길이 거의 끊겼고 기존의 놀이기구는 이미 "
-"평판이 썩을 대로 썩었다는 뜻입니다. 이 시궁창 속의 놀이공원을 보석으로 바꿔보세요."
+"놀이공원의 재앙입니다. 정비가 안 되어 있고, 더러우며, 안전하지 않습니다. 하지만 이 지역은 지나치기엔 너무 좋은 곳이고 이미 있는 "
+"놀이기구도 수리만 하면 사용하기에 나쁘지는 않습니다. 이 놀이공원을 시궁창 속에서 꺼내 보석으로 바꿔보세요."
 
 #: AssetManager
 msgid ""
@@ -11881,7 +11882,7 @@ msgid ""
 "structures to be built above tree height.\n"
 "Use the hilly terrain to your advantage by building close to the ground."
 msgstr ""
-"이 공원은 본래 자연 보호 구역으로, 현지 법에 따라 나무 높이 위로는 건축할 수 없습니다.\n"
+"이 공원은 본래 자연 보호 구역으로, 현지 법에 따라 나무 높이 위로는 건설을 할 수가 없습니다.\n"
 "지면 가까이에 건물을 짓고 언덕이 많은 지형을 잘 활용하십시오."
 
 #: AssetManager
@@ -11906,8 +11907,8 @@ msgid ""
 "presents an opportunity for an amusement park. Brave the challenging weather "
 "and help your guests forget the cold."
 msgstr ""
-"극한의 북쪽에 있는 작은 땅을 놀이공원으로 재탄생시킬 기회가 주어졌습니다. 극한의 날씨에 용감히 맞서 싸워서 손님들이 감기에 걸리지 "
-"않도록 하십시오."
+"극한의 북쪽에 있는 작은 땅을 놀이공원으로 재탄생시킬 기회가 주어졌습니다. 극한의 날씨에 용감히 맞서 싸워서 손님들이 추위를 잊게 "
+"만들어보세요."
 
 #: AssetManager
 msgid ""
@@ -11989,8 +11990,8 @@ msgid ""
 "little space you have at your disposal to build a charming amusement park. "
 "You can buy more land to expand the park - but you cannot get any loans!"
 msgstr ""
-"황량하고 숲이 우거진 계곡에서 작은 토지를 얻었습니다. 매력적이고 작은 놀이공원을 짓기 위해 당신이 처분할 수 있는 작은 공간을 "
-"활용해보세요. 땅을 구입해서 공원을 확장할 수 있지만, 대출을 받을 수는 없습니다!"
+"황량하고 숲이 우거진 계곡에서 작은 토지를 얻었습니다. 멋진 놀이공원을 짓기 위해서는 여러분이 원하는 대로 사용할 수 있는 이 작은 "
+"공간을 활용해보세요. 땅을 구입해서 공원을 확장할 수 있지만, 대출을 받을 수는 없습니다!"
 
 #: AssetManager
 msgid ""
@@ -11999,15 +12000,15 @@ msgid ""
 "your task to turn this beautiful nature setting into a lakeside amusement "
 "park."
 msgstr ""
-"휴양지로 완벽한 빅토리아 호수 주변 지역에는 확장할 수 있으며, 평평하고 비어있는 충분한 땅이 있습니다. 이 아름다운 자연 환경을 호숫가 "
-"놀이공원으로 바꾸는 것이 당신의 임무입니다."
+"확장 가능하고 평평하며 비어있는 충분한 땅이 있는 이 빅토리아 호수 주변 지역은 휴양지로 아주 완벽한 장소입니다. 이 아름다운 자연 "
+"환경을 호숫가 놀이공원으로 바꾸는 것이 당신의 임무입니다."
 
 #: AssetManager
 msgid ""
 "An old wild west town that's seen better days. If you can get past the heat "
 "there's lots of space for a large amusement park."
 msgstr ""
-"더 나은 날을 바라보고 있었던 오래된 서부 마을입니다. 과거의 열기를 회복해 큰 놀이공원이 될 수 있는 많은 공간이 준비되어 있습니다."
+"더 좋은 시절이 있었던 오래된 서부 마을입니다. 대형 놀이공원이 될 수 있는 많은 공간이 있지만 열기를 극복하셔야할 것입니다!"
 
 #: AssetManager
 msgid ""
