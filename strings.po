@@ -1,5 +1,6 @@
-# rakwon choi <ch0494@gmail.com>, 2018-2019. #zanata
-# Willem Lee <telk5093@gmail.com>, 2018-2019. #zanata
+# Willem Lee <telk5093@gmail.com>, 2018. #zanata
+# rakwon choi <ch0494@gmail.com>, 2018. #zanata
+# Willem Lee <telk5093@gmail.com>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -8,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-01-11 12:02+0000\n"
+"PO-Revision-Date: 2019-01-14 08:36+0000\n"
 "Last-Translator: Willem Lee <telk5093@gmail.com>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -2024,7 +2025,7 @@ msgstr "즐길 건 다 즐긴 것 같죠? 집에 가야겠어요!"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:298
 msgid "I should go home or I'll go broke!"
-msgstr "집에 가지 않으면 쓰러질 것 같아요!"
+msgstr "집에 가지 않으면 빈털터리가 되겠어요!"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:305
 msgid "I'm so tired, I just want to go home..."
@@ -2032,7 +2033,7 @@ msgstr "너무 피곤해요, 집에 가고 싶어요..."
 
 #: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:311
 msgid "Alright, I've really had enough of this park!"
-msgstr "좋았어, 이 공원에서 즐길 만큼 다 즐겼어요!"
+msgstr "좋아요, 이 공원에서 즐길 만큼 다 즐겼어요!"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:346
 msgid "I haven't been able to find any rides that interest me!"
