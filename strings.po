@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-01-14 08:36+0000\n"
+"PO-Revision-Date: 2019-01-14 10:50+0000\n"
 "Last-Translator: Willem Lee <telk5093@gmail.com>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -142,7 +142,7 @@ msgstr "공원 소유가 아닌 땅에 놓아야 합니다."
 #. / 0 = list of mods
 #: c:\work\parkitect unity 5.4\assets\scripts\exceptionwatcher.cs:80
 msgid "There has been an error that may be caused by mods."
-msgstr "모드로 인해 발생할 수 있는 성능 문제가 있습니다."
+msgstr "모드로 인해 오류가 발생하였습니다."
 
 #. / 0 = email address
 #: c:\work\parkitect unity 5.4\assets\scripts\exceptionwatcher.cs:88
@@ -205,7 +205,7 @@ msgstr "이 문제는 \"{0}\" 모드 때문에 발생하였습니다. 모드 제
 
 #: c:\work\parkitect unity 5.4\assets\scripts\gameloader.cs:12
 msgid "There was an error when loading the game."
-msgstr "게임을 로딩하던 도중 문제가 발생했습니다."
+msgstr "게임을 불러오던 도중에 문제가 발생했습니다."
 
 #: c:\work\parkitect unity 5.4\assets\scripts\gameloader.cs:93
 msgid "Loading scenarios..."
@@ -304,11 +304,11 @@ msgstr "제거할 수 없습니다."
 
 #: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:18
 msgid "This must be placed on water."
-msgstr "반드시 물 위에 올려져야 합니다."
+msgstr "반드시 물 위에 설치해야 합니다."
 
 #: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:19
 msgid "Make sure that there are Mechanics who can reach the rides exit."
-msgstr "정비기술자가 놀이기구 출구에 도착할 수 있는지 확인해주십시오."
+msgstr "정비기술자가 놀이기구 출구까지 갈 수 있는지 확인해주세요."
 
 #: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:20
 msgid "Not researched."
@@ -479,7 +479,7 @@ msgstr "이스트 리버 뱅크"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\loancontroller.cs:48
 msgid "Bank Forward"
-msgstr "뱅크 포워드"
+msgstr "포워드 은행"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\loancontroller.cs:52
 msgid "Bank Of Elmwood"
@@ -487,11 +487,11 @@ msgstr "엘름우드 은행"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\loancontroller.cs:56
 msgid "Currie State Bank"
-msgstr "커리 주립 은행"
+msgstr "커리 스테이트 은행"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\loancontroller.cs:60
 msgid "Lake National Bank"
-msgstr "국립 호수 은행"
+msgstr "레이크 내셔널 은행"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\loancontroller.cs:64
 msgid "Peoples State Bank Of Commerce"
@@ -547,7 +547,7 @@ msgstr "대출 이자"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\monthlytransactions.cs:62
 msgid "Staff Training"
-msgstr "직원 훈련"
+msgstr "직원 교육"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\monthlytransactions.cs:63
 msgid "Advertising"
@@ -787,7 +787,7 @@ msgstr "물에 빠진 손님"
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\achievements\stats\guestsentertainedstat.cs:12
 msgid "Guests entertained"
-msgstr "손님 환영"
+msgstr "즐겁게 해준 손님"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\achievements\stats\highestgueststat.cs:12
@@ -879,7 +879,7 @@ msgstr "고용된 미화원 수"
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\achievements\stats\totalmaintenancestat.cs:12
 msgid "Total maintenance"
-msgstr "총 유지 보수"
+msgstr "총 정비"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\achievements\stats\totalmechanicsstat.cs:12
@@ -982,7 +982,7 @@ msgstr "모두 탑승"
 #: c:\work\parkitect unity 5.4\assets\scripts\attractions\attraction.cs:1030
 #, csharp-format
 msgid "{0} has not been maintained for {1} minutes."
-msgstr "{0}(이)가 {1}분 이상 유지 보수되지 않았습니다."
+msgstr "{0}(이)가 {1}분 이상 정비되지 않았습니다."
 
 #. / 0 = name of an attraction, 1 = number
 #: c:\work\parkitect unity 5.4\assets\scripts\attractions\attraction.cs:1064
@@ -1042,7 +1042,7 @@ msgstr "물은 0.5칸 단위로 올려야 합니다. (예시: {2}가 아닌 {0} 
 msgid ""
 "There's not enough space on the water for boats to move from one end of the "
 "station to the other."
-msgstr "보트가 정거장 끝에서 반대편으로 가기 위한 공간이 부족합니다."
+msgstr "물에 보트가 정거장 끝에서 반대편으로 가기 위한 충분한 공간이 없습니다."
 
 #. / 0 = name of attraction
 #: c:\work\parkitect unity 5.4\assets\scripts\attractions\entranceexit.cs:205
@@ -1220,12 +1220,12 @@ msgstr "속력: {0}"
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\attractions\coasters\trains\train.cs:883
 msgid "First place!"
-msgstr "첫 장소!"
+msgstr "1등!"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\attractions\coasters\trains\train.cs:891
 msgid "Aww, last place..."
-msgstr "아... 마지막 바퀴야..."
+msgstr "아... 꼴등이야..."
 
 #. / 0 = number, 1 = name of attraction
 #: c:\work\parkitect unity
@@ -1400,7 +1400,7 @@ msgstr "손님 배고픔"
 #: 5.4\assets\scripts\campaigns\researchcampaigns\results\intensitydistributionresult.cs:32
 #: 5.4\assets\scripts\campaigns\researchcampaigns\results\intensitydistributionresult.cs:40
 msgid "Guest Intensity Preference"
-msgstr "손님 격렬 선호도"
+msgstr "손님 선호 격렬도"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\campaigns\researchcampaigns\results\priceresult.cs:35
@@ -1489,7 +1489,7 @@ msgid ""
 "Upload operation timed out.\n"
 "Please try again later."
 msgstr ""
-"업로드 동작 시간 초과.\n"
+"업로드 작업 시간을 초과하였습니다.\n"
 "나중에 다시 시도해주세요."
 
 #: c:\work\parkitect unity
@@ -1916,7 +1916,7 @@ msgstr "모든 필수 목표를 완료하기 까지 앞으로 {0} 남았습니�
 #: 5.4\assets\scripts\people\behaviours\staff\cleanshopbehaviour.cs:43
 #, csharp-format
 msgid "Cleaning {0}"
-msgstr "{0} 청소중"
+msgstr "{0} 청소 중"
 
 #. / 0 = name of product ingredient that is being delivered, e.g. "Potatoes", 1 = name of shop
 #: c:\work\parkitect unity 5.4\assets\scripts\jobs\deliveryjob.cs:46
@@ -1932,7 +1932,7 @@ msgstr "{0}({1})(이)가 일하는 중"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\jobs\job.cs:181
 msgid "Waiting for available worker..."
-msgstr "작업 가능한 직원 대기중"
+msgstr "작업 가능한 직원 대기 중"
 
 #. / 0 = number
 #: c:\work\parkitect unity 5.4\assets\scripts\jobs\job.cs:185
@@ -1944,7 +1944,7 @@ msgstr "작업 가능한 직원을 {0}분 째 기다리는 중"
 #: c:\work\parkitect unity 5.4\assets\scripts\jobs\maintainattractionjob.cs:27
 #, csharp-format
 msgid "Maintain {0}"
-msgstr "{0} 유지 보수 중"
+msgstr "{0} 정비 중"
 
 #. / 0 = name of shop
 #: c:\work\parkitect unity 5.4\assets\scripts\jobs\manshopjob.cs:45
@@ -1990,7 +1990,7 @@ msgstr "직원 휴게소가 없어요!"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\people\employee.cs:260
 msgid "All training rooms are occupied!"
-msgstr "모든 직원 훈련실이 사용 중입니다!"
+msgstr "모든 직원 교육실이 사용 중입니다!"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\people\employee.cs:361
 msgid "Too tired to work"
@@ -2021,7 +2021,7 @@ msgstr "집에 가야겠어요!"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:291
 msgid "I guess I've seen everything there is to see? Time to go home!"
-msgstr "즐길 건 다 즐긴 것 같죠? 집에 가야겠어요!"
+msgstr "봐야 할 건 다 본 것 같죠? 집에 가야겠어요!"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:298
 msgid "I should go home or I'll go broke!"
@@ -2051,7 +2051,7 @@ msgstr "제가 첫 번째 손님이에요!"
 #: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:455
 #, csharp-format
 msgid "I'm guest number {0}!"
-msgstr "저는 {0}번 손님이에요!"
+msgstr "저는 {0}번째 손님이에요!"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:466
 msgid "It's great to be here again!"
@@ -2075,7 +2075,7 @@ msgstr "이 구역은 별로 멋지지 않네요..."
 
 #: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:613
 msgid "The vandalism over here is really bad..."
-msgstr "이 근처에 기물이 파손되어 있어요..."
+msgstr "이 근처의 기물이 파손되어서 보기 참 흉하네요..."
 
 #: c:\work\parkitect unity 5.4\assets\scripts\people\guest.cs:663
 msgid "I can't afford the park entrance fee!"
@@ -2135,7 +2135,7 @@ msgstr "놀이기구 수리 횟수: {0}"
 #: c:\work\parkitect unity 5.4\assets\scripts\people\mechanic.cs:140
 #, csharp-format
 msgid "Rides maintained: {0}"
-msgstr "놀이기구 유지 보수 횟수: {0}"
+msgstr "놀이기구 정비 횟수: {0}"
 
 #. / 0 = number
 #: c:\work\parkitect unity 5.4\assets\scripts\people\mechanic.cs:142
@@ -2207,7 +2207,7 @@ msgstr "아야!"
 #: 5.4\assets\scripts\people\behaviours\buyproductbehaviour.cs:76
 #, csharp-format
 msgid "I should finish my {0} first."
-msgstr "{0}부터 빨리 먹어야겠어요."
+msgstr "{0}부터 먼저 다 먹어야겠어요."
 
 #. / 0 = name of food product, e.g. "Burger", 1 = name of shop
 #: c:\work\parkitect unity
@@ -2235,7 +2235,7 @@ msgstr "{0}(을)를 사고 싶지만, {1}에 재고가 떨어졌네요."
 #: 5.4\assets\scripts\people\behaviours\buyproductbehaviour.cs:140
 #, csharp-format
 msgid "Buying something from {0}"
-msgstr "{0}에서 뭔가 구입중"
+msgstr "{0}에서 뭔가 구입 중"
 
 #. / 0 = name of attraction
 #: c:\work\parkitect unity
@@ -2284,7 +2284,7 @@ msgstr "뭔가 하는 중"
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\people\behaviours\pickedupbehaviour.cs:6
 msgid "Huh?!"
-msgstr "뭐?!"
+msgstr "어라?!"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\people\behaviours\pickedupbehaviour.cs:7
@@ -2427,7 +2427,7 @@ msgstr "{0}에서 {1} 동안 대기 중"
 #: 5.4\assets\scripts\people\behaviours\guests\queueingbehaviour.cs:323
 #, csharp-format
 msgid "Queueing for {0}"
-msgstr "{0} 대기중"
+msgstr "{0} 대기 중"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\people\behaviours\guests\takephotobehaviour.cs:41
@@ -2473,7 +2473,7 @@ msgstr "{0}(은)는 터무니없이 비싸요!"
 #: 5.4\assets\scripts\people\behaviours\guests\usetoiletbehaviour.cs:112
 #, csharp-format
 msgid "I can't afford to use {0}!"
-msgstr "{0}(을)를 사용할 돈이 없어요!"
+msgstr "{0}(을)를 이용할 돈이 없어요!"
 
 #. / 0 = name of shop
 #: c:\work\parkitect unity
@@ -2573,7 +2573,7 @@ msgstr "손님 즐겁게 해주는 중"
 #: 5.4\assets\scripts\people\behaviours\staff\maintainattractionbehaviour.cs:77
 #, csharp-format
 msgid "Maintaining {0}"
-msgstr "{0} 유지 보수 중"
+msgstr "{0} 정비 중"
 
 #. / 0 = name of shop
 #. / 0 = name of attraction
@@ -2622,19 +2622,19 @@ msgstr "쉬는 중"
 #: 5.4\assets\scripts\people\behaviours\staff\trainingbehaviour.cs:126
 #: 5.4\assets\scripts\people\behaviours\staff\walktotrainingroomexitbehaviour.cs:44
 msgid "Training"
-msgstr "훈련 중"
+msgstr "교육 중"
 
 #. / 0 = name of employee
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\people\behaviours\staff\transporttrashoutofparkbehaviour.cs:38
 #, csharp-format
 msgid "{0} can't get to the trash dump."
-msgstr "{0}(이)가 쓰레기 집하장에 도달할 수 없습니다."
+msgstr "{0}(이)가 쓰레기 수거함에 도달할 수 없습니다."
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\people\behaviours\staff\transporttrashoutofparkbehaviour.cs:38
 msgid "Make sure there is a path leading to the trash dump."
-msgstr "쓰레기 집하장까지 가는 길이 있는지 확인해보세요."
+msgstr "쓰레기 수거함까지 가는 길이 있는지 확인해보세요."
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\people\behaviours\staff\transporttrashoutofparkbehaviour.cs:70
@@ -2651,7 +2651,7 @@ msgstr "제가 속한 구역에선 아무데도 갈 수 있는 곳이 없어요!
 #: 5.4\assets\scripts\people\behaviourtree\actions\rateattractionaction.cs:54
 #, csharp-format
 msgid "{0} was a really good deal!"
-msgstr "{0}(은)는 매우 좋았어요!"
+msgstr "{0}의 가격은 매우 좋았어요!"
 
 #. / 0 = name of attraction
 #: c:\work\parkitect unity
@@ -2781,7 +2781,7 @@ msgstr "이 근처에서 마실 걸 사려면 어디로 가야하죠?"
 #: 5.4\assets\scripts\people\longtermplans\getmoneyplan.cs:44
 #: 5.4\assets\scripts\people\longtermplans\getmoneyplan.cs:60
 msgid "I'm broke!"
-msgstr "완전 녹초가 됐어요!"
+msgstr "돈을 다 썼어요!"
 
 #. / 0 = name of attraction
 #: c:\work\parkitect unity
@@ -2926,7 +2926,7 @@ msgstr "총 놀이기구 수리 횟수"
 #: 5.4\assets\scripts\research\researchcontroller.cs:310
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:78
 msgid "Total attractions maintained"
-msgstr "총 놀이기구 유지 보수 횟수"
+msgstr "총 놀이기구 정비 횟수"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\research\researchcontroller.cs:311
@@ -3044,7 +3044,7 @@ msgstr "제작 중"
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\research\researchcontroller.cs:379
 msgid "Thrill Rides"
-msgstr "스릴있는 놀이기구"
+msgstr "스릴 놀이기구"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\research\researchcontroller.cs:387
@@ -3079,7 +3079,7 @@ msgstr "데이터 분석 중"
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\research\researchcontroller.cs:433
 msgid "Producing initial statistics"
-msgstr "초반 통계 생성 중"
+msgstr "최초 통계 생성 중"
 
 #. / 0 = number
 #: c:\work\parkitect unity 5.4\assets\scripts\research\researchteam.cs:91
@@ -3137,7 +3137,7 @@ msgstr "물류 센터나 물류 패드가 최소 하나 이상 있어야 합니�
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\scenarioeditor\scenariochecker.cs:70
 msgid "You need at least 1 trash dump or 1 deliveries building."
-msgstr "쓰레기 적하장이나 물류 센터가 최소 하나 이상 있어야 합니다."
+msgstr "쓰레기 수거함이나 물류 센터가 최소 하나 이상 있어야 합니다."
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\scenarioeditor\scenariochecker.cs:80
@@ -3169,7 +3169,7 @@ msgstr "배달부가 상점에 도착할 수 있는지 확인해주십시오."
 
 #: c:\work\parkitect unity 5.4\assets\scripts\shops\products\balloon.cs:183
 msgid "Hey! My balloon..."
-msgstr "이봐! 내 풍선..."
+msgstr "앗! 내 풍선..."
 
 #. / 0 = name of food product, 1 = name of shop
 #: c:\work\parkitect unity
@@ -3306,7 +3306,7 @@ msgid ""
 "\n"
 "Build 4 downward slopes."
 msgstr ""
-"이제 체인 리프트 버튼을 해제해서 차량이 자유롭게 움직일 수 있게 합시다. 그리고 이제 첫 낙하의 시간이 되었습니다!\n"
+"이제 체인 리프트 버튼을 해제해서 차량이 자유롭게 움직일 수 있게 합시다. 그리고 이제 첫 번째 낙하를 할 시간입니다!\n"
 "\n"
 "아래로 내려가는 조각을 4번 지으세요."
 
@@ -3357,9 +3357,10 @@ msgid ""
 "The controls are mostly the same whether you build a shop, a ride or "
 "anything else, but for this example let's try building some decoration."
 msgstr ""
-"테마파크를 만들고 싶으시다면, 건물을 어떻게 짓는지에 대해 알아야 합니다!\n"
-"다행히도, 아주 어렵지는 않습니다.\n"
-"조작법은 상점이나 놀이기구, 기타 등등을 만드는 방법과 대부분 비슷합니다만, 여기에서는 약간의 꾸미기를 해보는 것을 연습해보도록 하죠."
+"테마파크를 만들고 싶으시다면, 건물을 어떻게 짓는 지에 대해 알아야 합니다!\n"
+"다행히도 아주 어렵지는 않습니다.\n"
+"조작법은 상점이나 놀이기구, 기타 다른 것을 만드는 방법과 대부분 비슷합니다만, 여기에서는 약간의 꾸미기를 해보는 것을 연습해보도록 하죠."
+""
 
 #: c:\work\parkitect unity 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:61
 msgid ""
@@ -3392,7 +3393,7 @@ msgstr ""
 "마우스 오른쪽 버튼을 누른 채로 마우스를 움직이면 오브젝트를 계속 제거할 수 있는데, 처음에 클릭했던 오브젝트와 같은 범주에 속한 "
 "오브젝트만 제거합니다. 이 방법은 다른 것을 지워야 하는 부담 없이 돌만 빠르게 지우는 상황 등에 매우 유용합니다!\n"
 "다른 방법으로, 하단 메뉴 바에서 불도저 버튼을 이용할 수도 있습니다. 많은 양의 오브젝트를 한 번에 제거할 때 대체로 유용합니다.\n"
-"지었을 때 쓴 금액은 지은 지 꽤 오랫동안 놔두었다 제거해도 100% 환불되니, 실험삼아 설치해보는 것을 두려워하지 마세요!\n"
+"지었을 때 쓴 금액은 지은 지 꽤 오랫동안 놔두었다 제거해도 100% 환불되니, 실험 삼아 설치해보는 것을 두려워하지 마세요!\n"
 "\n"
 "다음 단계로 가려면 이전 단계에서 지었던 꾸미기 오브젝트를 제거해보세요!"
 
@@ -3558,7 +3559,7 @@ msgid ""
 "And then there's also the shops, which are an important source of income as "
 "well!"
 msgstr ""
-"빠르든 늦든 당신의 공원은 돈을 벌어야 하고 그렇지 못하면 문을 닫아야 합니다.\n"
+"머지 않아 공원에서 돈을 벌어야 하고 그렇지 못하면 문을 닫아야 합니다.\n"
 "손님들이 놀이기구를 타기 위해 놀이기구 탑승료를 내게 하거나 아니면 공원에 입장하는 것만으로 공원 입장료를 내게 할 수 있습니다. 두 "
 "가지 방법을 같이 사용할 수는 있지만, 공원 입장료를 비싸게 받을 수록 손님들이 놀이기구 탑승료를 더 내지 않으려고 할 것입니다.\n"
 "그리고 아주 중요한 수익원인 상점 또한 있다는 걸 잊지 마세요!"
@@ -3696,7 +3697,7 @@ msgid ""
 "trash bins in the highlighted area."
 msgstr ""
 "잘 하셨습니다!\n"
-"대부분의 음식 상자는 쓰레기가 생깁니다. 쓰레기통을 건설해두지 않으면 이 공원은 쓰레기로 뒤덮일 것입니다!\n"
+"대부분의 음식은 쓰레기를 만듭니다. 쓰레기통을 건설해두지 않으면 이 공원은 쓰레기로 뒤덮일 것입니다!\n"
 "\n"
 "꾸미기 창을 열고, 길 시설물 탭을 선택한 뒤, 쓰레기 통을 선택한 영역에 놓으세요."
 
@@ -3787,9 +3788,9 @@ msgid ""
 "Let's check the decoration visualization view to get a better idea for what "
 "doesn't look so nice to your guests."
 msgstr ""
-"손님들은 공원에 온전히 몰입하는 것을 좋아합니다. 무대 뒤에서 공원이 어떻게 운영되고 있는지 알고싶지 않아 합니다.\n"
+"손님들은 공원에 온전히 몰입하는 것을 좋아합니다. 무대 뒤에서 공원이 어떻게 운영되고 있는지 알고 싶어하지 않는다는 것이죠.\n"
 "손님들의 시야에 공원 시설 건물이 곧바로 들어올 때마다 손님들의 몰입도가 떨어집니다.\n"
-"꾸미기 시각화 도구를 통해 손님들에게 멋있게 보이지 않는 곳을 개선할 만한 좋은 아이디어를 찾아봅시다."
+"꾸미기 시각화 도구를 열어서 손님들에게 멋있게 보이지 않는 곳을 개선하기 위한 방법을 찾아봅시다."
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\tutorial\tutorialwindow.cs:202
@@ -3836,7 +3837,7 @@ msgid ""
 "around the Depot!\n"
 "There are many ways of doing this."
 msgstr ""
-"생울타리나, 아니면 돌을 놓아도 좋습니다.\n"
+"생울타리나, 아니면 돌을 놓아서 풍경을 가려도 좋습니다.\n"
 "아니면 물류 창고 근처를 완전히 건물로 멋있게 감싸는 맞춤형 건물을 만들어 감추어도 됩니다!\n"
 "수치를 개선하는 방법은 아주 많이 있습니다."
 
@@ -3908,7 +3909,7 @@ msgid ""
 msgstr ""
 "그리고 다른 커브를 하나 더 만듭니다.\n"
 "\n"
-"그런데, 당신이 알고 싶어할지도 모르는 보조 시각화 모드가 여럿 있습니다. 이 모드는 놀이기구의 어느 부분이 재미있고 또 어느 부분이 "
+"그런데 당신이 알고 싶어할지도 모르는 유용한 시각화 모드가 여럿 있습니다. 이 모드는 놀이기구의 어느 부분이 재미있고 또 어느 부분이 "
 "불편한지 알아내는데 도움을 줍니다. 예를 들어 측면 중력은 탑승객을 차량 측면으로 누르는 힘으로, 보통 재미있는 기분이 아닙니다. 트랙을 "
 "기울여 뱅크를 주면, 측면 중력이 수직 중력으로 변환됩니다. 수직 숭력은 탑승객을 좌석의 아래나 위로 누르는 힘입니다. 전후 중력은 "
 "차량이 가속 또는 감속할 때 발생합니다."
@@ -3968,7 +3969,7 @@ msgid ""
 msgstr ""
 "이제 트랙을 정거장 뒤로 되돌아오게 만들 방법에 대해 생각해봅시다. 이 코스터는 상당히 작은 코스터지만, 어쨌든 튜토리얼이잖아요!\n"
 "일반적으로 트랙을 정거장과 같은 높이로 맞추는 것이 좋습니다. 이렇게 하면 결국 모든 것을 훨씬 쉽게 정리할 수 있습니다.\n"
-"정거장 끝의 높이를 확인해보면, \"3\"이라고 적힌 작은 표시가 보일 것입니다. 적절히 연결하기 위해서는, 트랙을 이 높이까지 맞춰야 "
+"정거장 끝의 높이를 확인해보면, \"3\"이라고 적힌 작은 표시가 보일 것입니다. 제대로 연결하기 위해서는 트랙을 이 높이까지 맞춰야 "
 "합니다. 경우에 따라 조금 까다로울 수 있습니다. 특히 지금과 같이 간신히 평지로 돌아왔을 때 특히 그렇습니다. 하지만 얕은 경사를 "
 "사용하고 조각 크기를 조정하다 보면 항상 올바른 높이로 되돌릴 수 있습니다.\n"
 "\n"
@@ -4019,7 +4020,7 @@ msgid ""
 "\n"
 "Build an S-bend to finish the track."
 msgstr ""
-"이런, 한 칸 크기만큼 안 맞네요. 한 단계 뒤로 돌아가서 커브의 크기를 늘릴 수 있지만, 어쩔 땐 그게 불가능할 수도 있습니다. 다른 "
+"이런, 한 칸 차이로 어긋났네요. 한 단계 뒤로 돌아가서 커브의 크기를 늘릴 수 있지만, 어쩔 땐 그게 불가능할 수도 있습니다. 다른 "
 "대안으로는 트랙 건설 창 오른쪽에 있는 S자 트랙을 짓는 방법이 있습니다.\n"
 "\n"
 "S자 트랙을 지어 트랙을 완성하세요."
@@ -4170,7 +4171,7 @@ msgstr "이 오류 메시지가 클립보드에 복사되었습니다."
 
 #: c:\work\parkitect unity 5.4\assets\scripts\ui\windows\statwindow.cs:19
 msgid "Management"
-msgstr "유지 보수"
+msgstr "정비"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\ui\windows\statwindow.cs:20
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:47
@@ -4204,7 +4205,7 @@ msgstr "블록"
 #: 5.4\assets\scripts\ui\windows\utilitybuildinginfo\utilitybuildingfinancepanel.cs:35
 #, csharp-format
 msgid "<b>Maintenance cost per month:</b> {0}"
-msgstr "<b>월당 유지 보수비:</b> {0}"
+msgstr "<b>월당 정비 비용:</b> {0}"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\attractioninfo\attractionfinancegraphstab.cs:56
@@ -4322,7 +4323,7 @@ msgstr "<b>마지막 고장 사유:</b> {0}"
 #: 5.4\assets\scripts\ui\windows\attractioninfo\attractionsettingspanel.cs:187
 #, csharp-format
 msgid "<b>Last maintenance:</b> {0} ago"
-msgstr "<b>최근 유지 보수:</b> {0} 전에"
+msgstr "<b>최근 정비:</b> {0} 전에"
 
 #. / 0 = date, e.g. "February, Year 2"
 #. / 0 = date
@@ -4604,19 +4605,19 @@ msgstr "고용된 날짜: {0}"
 msgid ""
 "There are no training rooms nearby that can be reached or they are all fully "
 "occupied."
-msgstr "근처에 직원이 갈 수 있는 직원 훈련실이 없거나 모두 사용 중입니다."
+msgstr "근처에 직원이 갈 수 있는 직원 교육실이 없거나 모두 사용 중입니다."
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\employeeinfo\employeetrainingtoggle.cs:69
 #, csharp-format
 msgid "Train to level {0}"
-msgstr "레벨 {0}(으)로 훈련하기"
+msgstr "레벨 {0}(으)로 교육하기"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\employeeinfo\employeetrainingtoggle.cs:69
 #, csharp-format
 msgid "Duration: {0}"
-msgstr "훈련 시간: {0}"
+msgstr "교육 시간: {0}"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\employeeinfo\employeetrainingtoggle.cs:69
@@ -4674,22 +4675,22 @@ msgstr "기물파괴범"
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\guestinfo\personstatstab.cs:38
 msgid "Weak Stomach"
-msgstr "약한 위장"
+msgstr "비위 약함"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\guestinfo\personstatstab.cs:41
 msgid "Strong Stomach"
-msgstr "강한 위장"
+msgstr "비위 강함"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\guestinfo\personstatstab.cs:45
 msgid "Impatient"
-msgstr "참을성 없음"
+msgstr "인내심 없음"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\guestinfo\personstatstab.cs:48
 msgid "Patient"
-msgstr "참을성 높음"
+msgstr "인내심 높음"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\guestinfo\personstatstab.cs:52
@@ -4714,12 +4715,12 @@ msgstr "깔끔함"
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\guestinfo\personstatstab.cs:66
 msgid "Stingy"
-msgstr "깐깐함"
+msgstr "구두쇠"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\guestinfo\personstatstab.cs:69
 msgid "Generous"
-msgstr "관대함"
+msgstr "돈을 잘 씀"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\guestinfo\personstatstab.cs:76
@@ -4898,7 +4899,7 @@ msgstr "청결도"
 #: 5.4\assets\scripts\ui\windows\parkfinance\loanplanentry.cs:73
 #, csharp-format
 msgid "You may not take more than {0} loans at once"
-msgstr "한 번에 {0}개 초과의 대출을 받을 수 없습니다."
+msgstr "한 번에 {0}개 넘게 대출을 받을 수 없습니다."
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\parkfinance\loanplanentry.cs:76
@@ -4938,7 +4939,7 @@ msgstr "새 연구 팀 고용"
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\parkfinance\researchteamentry.cs:74
 msgid "Paused"
-msgstr "일시정지 됨"
+msgstr "일시 정지 됨"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkgoalstab.cs:106
@@ -4968,7 +4969,7 @@ msgstr "문을 닫고 손님을 집으로 보냄"
 msgid ""
 "You can't open the park in the scenario editor. Save your scenario and start "
 "a new park from it."
-msgstr "이 공원을 시나리오 에디터에서 열 수 없습니다. 시나리오를 저장하고 새 공원을 시작하십시오."
+msgstr "이 공원을 시나리오 편집기에서 열 수 없습니다. 시나리오를 저장하고 새 공원을 시작하십시오."
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:48
@@ -5061,12 +5062,12 @@ msgstr "{0} FPS"
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\settings\graphicssettingstab.cs:89
 msgid "Fast Approximate Anti-aliasing (FXAA)"
-msgstr "Fast Approximate Anti-aliasing (FXAA)"
+msgstr "빠르고 대략적인 안티 에일리어싱 (FXAA)"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\settings\graphicssettingstab.cs:90
 msgid "Temporal Anti-aliasing (TAA)"
-msgstr "Temporal Anti-aliasing (TAA)"
+msgstr "시간축선 안티 에일리어싱 (TAA)"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\ui\windows\settings\keyrebindentry.cs:71
@@ -5664,7 +5665,7 @@ msgstr "통나무"
 #: CowSkull CowSkullWall
 msgctxt "BuildableObject"
 msgid "Cow Skull"
-msgstr "소 뼈"
+msgstr "소 두개골"
 
 #: PinetreeLarge01v2 SpookyTreePine
 msgctxt "BuildableObject"
@@ -5709,7 +5710,7 @@ msgstr "패들 보트"
 #: SplashBattleTarget
 msgctxt "BuildableObject"
 msgid "Splash Battle Target"
-msgstr "스플래시 배틀 목표"
+msgstr "스플래시 배틀 표적"
 
 #: AcceleratorCoaster
 msgctxt "BuildableObject"
@@ -6014,7 +6015,7 @@ msgstr "탑 스캔"
 #: Tourbillon
 msgctxt "BuildableObject"
 msgid "Tourbillon"
-msgstr "뚜르비옹"
+msgstr "투르비용"
 
 #: Turbine
 msgctxt "BuildableObject"
@@ -6079,7 +6080,7 @@ msgstr "솜사탕 가게"
 #: CustomizableShop
 msgctxt "BuildableObject"
 msgid "Customizable Shop"
-msgstr "커스터마이징 가능한 상점"
+msgstr "커스텀 상점"
 
 #: FirstAidRoom
 msgctxt "BuildableObject"
@@ -6094,7 +6095,7 @@ msgstr "과일 주스 가게"
 #: FunnelCakes
 msgctxt "BuildableObject"
 msgid "Funnel Cakes"
-msgstr "퍼넬 케이크"
+msgstr "퍼넬 케이크 가게"
 
 #: HotDogStall
 msgctxt "BuildableObject"
@@ -6354,7 +6355,7 @@ msgstr "거북이 관목"
 #: StreetCarSpawner
 msgctxt "BuildableObject"
 msgid "Car Spawner"
-msgstr "자동차 스포너"
+msgstr "차 스폰 지점"
 
 #: SupportSteelTowerDeco
 msgctxt "BuildableObject"
@@ -6421,7 +6422,7 @@ msgstr "포플러 (소형)"
 #: TreeSakura
 msgctxt "BuildableObject"
 msgid "Sakura Tree"
-msgstr "벚꽃 나무"
+msgstr "벚나무"
 
 #: TreeStump01 TreeStump02
 msgctxt "BuildableObject"
@@ -6726,17 +6727,17 @@ msgstr "스포트라이트"
 #: StatueElephant
 msgctxt "BuildableObject"
 msgid "Elephant Statue"
-msgstr "코끼리 동상"
+msgstr "코끼리 조각상"
 
 #: StatueGiraffe
 msgctxt "BuildableObject"
 msgid "Giraffe Statue"
-msgstr "기린 동상"
+msgstr "기린 조각상"
 
 #: StatueHorse
 msgctxt "BuildableObject"
 msgid "Horse Statue"
-msgstr "말 동상"
+msgstr "말 조각상"
 
 #: StatueLion
 msgctxt "BuildableObject"
@@ -6746,7 +6747,7 @@ msgstr "사자 상"
 #: StatueSnake
 msgctxt "BuildableObject"
 msgid "Snake Statue"
-msgstr "뱀 동상"
+msgstr "뱀 조각상"
 
 #: UmbrellaRound01 UmbrellaRound02 UmbrellaSquare01 UmbrellaSquare02
 msgctxt "BuildableObject"
@@ -7483,7 +7484,7 @@ msgstr "중계기"
 #: ScifiStatue
 msgctxt "BuildableObject"
 msgid "Statue"
-msgstr "동상"
+msgstr "조각상"
 
 #: ScifiTesla
 msgctxt "BuildableObject"
@@ -7599,7 +7600,7 @@ msgstr "뼈 무더기"
 #: Skull
 msgctxt "BuildableObject"
 msgid "Skull"
-msgstr "뼈"
+msgstr "두개골"
 
 #: SpookyTree SpookyTree02 SpookyTree03
 msgctxt "BuildableObject"
@@ -7848,7 +7849,7 @@ msgstr "직원 휴게소"
 #: TrainingRoom
 msgctxt "BuildableObject"
 msgid "Staff Training Room"
-msgstr "직원 훈련실"
+msgstr "직원 교육실"
 
 #: TrashChute
 msgctxt "BuildableObject"
@@ -8402,7 +8403,7 @@ msgstr "더스티 델타"
 
 #: Text
 msgid "Park Plains"
-msgstr "파크 플레인"
+msgstr "파크 플레인ㅅ스"
 
 #: Collider
 msgid "Create your own scenarios for sandbox mode"
@@ -8418,7 +8419,7 @@ msgstr "설정"
 
 #: Text
 msgid "Gallows Pass"
-msgstr "갤로우 패스"
+msgstr "갤로우스 패스"
 
 #: Text
 msgid "Haunted Island"
@@ -8430,11 +8431,11 @@ msgstr "참여하기"
 
 #: Text
 msgid "SCENARIO EDITOR"
-msgstr "시나리오 에디터"
+msgstr "시나리오 편집기"
 
 #: Description
 msgid "The sandbox mode and scenario editor are not available in this demo."
-msgstr "이 데모에서는 모래 상자 모드와 시나리오 에디터를 사용할 수 없습니다."
+msgstr "이 데모에서는 모래 상자 모드와 시나리오 편집기를 사용할 수 없습니다."
 
 #: Text
 msgid "NEW PARK"
@@ -8535,7 +8536,7 @@ msgstr "공원 불러오기"
 
 #: Text
 msgid "Faraway Fields"
-msgstr "파라웨이 필드"
+msgstr "파어웨이 필드"
 
 #: Text
 msgid "Mystic Desert"
@@ -8557,7 +8558,7 @@ msgstr "연락 및 이슈 제보"
 
 #: ScenarioEditorWindow
 msgid "Scenario Editor Tools"
-msgstr "시나리오 에디터 도구"
+msgstr "시나리오 편집기 도구"
 
 #: ColorBrushToolWindow Painter
 msgid "Brush"
@@ -8787,7 +8788,7 @@ msgid ""
 msgstr ""
 "<b>정비기술자</b>\n"
 "\n"
-"정비기술자는 고장난 놀이기구를 수리하고 놀이기구의 안정성을 위해 정기 유지 보수를 시행합니다.\n"
+"정비기술자는 고장난 놀이기구를 수리하고 놀이기구의 안정성을 위해 정기적으로 정비를 시행합니다.\n"
 "또한 파괴된 기물을 수리하기도 합니다."
 
 #: JobsTabPanel AttractionInfoWindow EmployeeInfoWindow ShopInfoWindow
@@ -8888,7 +8889,7 @@ msgid ""
 "Exciting rides for thrill-seekers. Anything that spins, flips, tilts and "
 "causes nausea."
 msgstr ""
-"<b>스릴있는 놀이기구</b>\n"
+"<b>스릴 놀이기구</b>\n"
 "\n"
 "스릴을 추구하는 손님들을 위한 신나는 놀이기구입니다. 회전하거나, 뒤집히거나, 기울어지는 놀이기구는 멀미를 유발합니다."
 
@@ -9309,7 +9310,7 @@ msgstr "색상 선택기"
 
 #: ScenarioEditorWatermark ScenarioEditor
 msgid "Scenario Editor"
-msgstr "시나리오 에디터"
+msgstr "시나리오 편집기"
 
 #: IsDayToggle
 msgid "Day/Night"
@@ -10319,7 +10320,7 @@ msgstr "구조물"
 #: Sculpture01 Sculpture02 Sculpture04 Sculpture05 Sculpture06 StatueElephant
 #: StatueGiraffe StatueHorse StatueLion StatueSnake
 msgid "Sculptures and Statues"
-msgstr "구조물과 동상"
+msgstr "구조물과 조각상"
 
 #: ScenicCube ScenicCylinder ScenicCylinderBorder ScenicCylinderBorderSide
 #: ScenicCylinderSide ScenicDreadedCone ScenicDreadedConeDown
@@ -10932,7 +10933,7 @@ msgstr "음량"
 
 #: AttractionSettingsPanel
 msgid "Maintenance"
-msgstr "유지 보수"
+msgstr "정비"
 
 #: AttractionSettingsPanel
 msgid "Safety"
@@ -10942,7 +10943,7 @@ msgstr "안정성"
 msgid ""
 "Rides that aren't maintained properly break down more often and might be "
 "avoided by guests."
-msgstr "유지 보수를 적절히 하지 않으면 놀이기구가 자주 고장나게 되고, 손님들이 기피하게 될 수도 있습니다."
+msgstr "정비를 적절히 하지 않으면 놀이기구가 자주 고장나게 되고, 손님들이 기피하게 될 수도 있습니다."
 
 #: AttractionSettingsPanel
 msgid "Budget"
@@ -10952,11 +10953,11 @@ msgstr "예산"
 msgid ""
 "A high maintenance budget creates more costs but also improves the rides "
 "safety."
-msgstr "유지 보수 예산이 높을 수록 비용이 많이 드는 대신 놀이기구의 안정성이 높아집니다."
+msgstr "정비 예산이 높을 수록 비용이 많이 드는 대신 놀이기구의 안정성이 높아집니다."
 
 #: AttractionSettingsPanel
 msgid "Maintenance Interval"
-msgstr "유지 보수 간격"
+msgstr "정비 간격"
 
 #: AttractionSettingsPanel
 msgid "minutes"
@@ -10964,7 +10965,7 @@ msgstr "분"
 
 #: AttractionSettingsPanel
 msgid "Maintain"
-msgstr "유지 보수"
+msgstr "정비"
 
 #: AttractionSettingsPanel
 msgid "Operation"
@@ -11125,7 +11126,7 @@ msgstr "상점 청소"
 
 #: TasksMechanicPanel
 msgid "Maintain rides"
-msgstr "놀이기구 유지 보수하기"
+msgstr "놀이기구 정비하기"
 
 #: TasksMechanicPanel
 msgid "Repair rides"
@@ -11852,8 +11853,8 @@ msgid ""
 "said, the area is too good to pass up and the existing rides aren't bad once "
 "fixed. Pull this park out of the gutter and turn it into a gem."
 msgstr ""
-"놀이공원의 재앙입니다. 유지 보수가 안 되어 있고, 더러우며, 안전하지 않습니다. 즉, 이 지역은 발길이 거의 끊겼고 기존의 놀이기구는 "
-"이미 평판이 썩을 대로 썩었다는 뜻입니다. 이 시궁창 속의 놀이공원을 보석으로 바꿔보세요."
+"놀이공원의 재앙입니다. 정비가 안 되어 있고, 더러우며, 안전하지 않습니다. 즉, 이 지역은 발길이 거의 끊겼고 기존의 놀이기구는 이미 "
+"평판이 썩을 대로 썩었다는 뜻입니다. 이 시궁창 속의 놀이공원을 보석으로 바꿔보세요."
 
 #: AssetManager
 msgid ""
@@ -12125,7 +12126,7 @@ msgstr "3배 속도로 플레이"
 
 #: InputManager
 msgid "Pause game"
-msgstr "게임 일시정지"
+msgstr "게임 일시 정지"
 
 #: InputManager
 msgid "Toggle UI on/off"
@@ -12221,7 +12222,7 @@ msgstr "빠른 저장"
 
 #: InputManager
 msgid "Open Scenario Editor Tools"
-msgstr "시나리오 에디터 도구 열기"
+msgstr "시나리오 편집기 도구 열기"
 
 #: InputManager
 msgid "Previous Tab"
@@ -12271,7 +12272,7 @@ msgstr "스트리트 오르간"
 #: SoundAssetManager
 msgctxt "Music"
 msgid "Black Lights (Techno)"
-msgstr "Popped Collars (테크노)"
+msgstr "Black Lights (테크노)"
 
 #: SoundAssetManager
 msgctxt "Music"
