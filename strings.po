@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-01-14 12:04+0000\n"
+"PO-Revision-Date: 2019-01-15 02:12+0000\n"
 "Last-Translator: Willem Lee <telk5093@gmail.com>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -1641,13 +1641,13 @@ msgstr "상점이 물건을 새로 공급받지 못 할 것입니다. 이 문제
 #: c:\work\parkitect unity 5.4\assets\scripts\events\supplyshortageevent.cs:6
 #, csharp-format
 msgid "There is a supply shortage of {0}, increasing prices by {1}%"
-msgstr "{0}의 공급 부족으로 인해, 가격이 {1}% 증가하였습니다"
+msgstr "{0}의 공급이 줄어들어, 비용이 {1}% 증가하였습니다"
 
 #. / 0 = name of a food ingredient, e.g. "Potatoes", 1 = number
 #: c:\work\parkitect unity 5.4\assets\scripts\events\supplysurplusevent.cs:6
 #, csharp-format
 msgid "There is a supply surplus of {0}, decreasing prices by {1}%"
-msgstr "{0}의 공급 과잉으로 인해, 가격이 {1}% 감소하였습니다"
+msgstr "{0}의 공급이 늘어, 비용이 {1}% 감소하였습니다"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\events\vandalismwaveevent.cs:24
 msgid "A group of vandals is roaming the park"
@@ -2350,7 +2350,7 @@ msgstr "\"{0}\" 구역으로 향하는 중"
 #: 5.4\assets\scripts\people\behaviours\guests\onattractionbehaviour.cs:149
 #, csharp-format
 msgid "{0} is taking forever..."
-msgstr "{0}(을)를 타려면 영겁의 시간이 필요할 것 같아요..."
+msgstr "{0}에 영원히 타고 있어야 하나봐요..."
 
 #. / 0 = name of attraction
 #: c:\work\parkitect unity
@@ -8403,7 +8403,7 @@ msgstr "더스티 델타"
 
 #: Text
 msgid "Park Plains"
-msgstr "파크 플레인ㅅ스"
+msgstr "파크 플레인스"
 
 #: Collider
 msgid "Create your own scenarios for sandbox mode"
