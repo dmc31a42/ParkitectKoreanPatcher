@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-01-15 02:12+0000\n"
+"PO-Revision-Date: 2019-01-18 10:24+0000\n"
 "Last-Translator: Willem Lee <telk5093@gmail.com>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -6742,7 +6742,7 @@ msgstr "말 조각상"
 #: StatueLion
 msgctxt "BuildableObject"
 msgid "Lion Statue"
-msgstr "사자 상"
+msgstr "사자 조각상"
 
 #: StatueSnake
 msgctxt "BuildableObject"
