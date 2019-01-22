@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-01-18 10:24+0000\n"
+"PO-Revision-Date: 2019-01-22 04:59+0000\n"
 "Last-Translator: Willem Lee <telk5093@gmail.com>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -316,15 +316,15 @@ msgstr "연구 안 됨"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:22
 msgid "Increased popularity during high temperatures"
-msgstr "온도가 높아지면 인기도가 오름"
+msgstr "온도가 높으면 인기가 있음"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:23
 msgid "Increased popularity during low temperatures"
-msgstr "온도가 낮아지면 인기도가 오름"
+msgstr "온도가 낮으면 인기가 있음"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:24
 msgid "Increased popularity during rain"
-msgstr "비가 오면 인기도가 오름"
+msgstr "비가 오면 인기가 있음"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\globalstrings.cs:28
 msgid "Guests will look for fun things to do while riding scenic rides."
@@ -1666,7 +1666,7 @@ msgstr "모든 기물파괴범이 공원을 떠났습니다"
 #, csharp-format
 msgid "There is one vandal remaining."
 msgid_plural "There are {0} vandals remaining."
-msgstr[0] "반달 {0}명이 남아있습니다."
+msgstr[0] "기물파괴범 {0}명이 남아있습니다."
 
 #. / 0 = name/description of a scenario goal that has been failed
 #: c:\work\parkitect unity 5.4\assets\scripts\goals\goalscontroller.cs:222
@@ -1970,7 +1970,7 @@ msgstr "공원 밖으로 쓰레기를 운반 중"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\paths\queuesigncontroller.cs:47
 msgid "Broken"
-msgstr "고장남"
+msgstr "고장"
 
 #: c:\work\parkitect unity 5.4\assets\scripts\paths\spawn.cs:95
 msgid "This has to be placed on unobtainable terrain."
@@ -9459,7 +9459,10 @@ msgstr "사운드 디자인"
 
 #: Thanks for playing
 msgid "Thanks for playing!"
-msgstr "플레이해주셔서 감사합니다!"
+msgstr ""
+"플레이해주셔서 감사합니다!\n"
+"\n"
+"비공식 한국어 번역: TELK (telk5093@gmail.com)"
 
 #: Title
 msgid "Programming"
@@ -9898,7 +9901,7 @@ msgstr "자유롭게 회전하면서 동시에 거대한 수직 회전 암에 �
 msgid ""
 "A pendulum ride that is designed to look like a sailing ship. The ship is "
 "pushed back and forth by drive wheels to simulate waves."
-msgstr "항해하는 배처럼 보이게 디자인된 진자형 놀이기구입니다. 이 배는 파도를 흉내내기 위해 앞 뒤로 움직압니다."
+msgstr "항해하는 배처럼 보이게 디자인된 진자형 놀이기구입니다. 이 배는 파도를 흉내내기 위해 앞뒤로 움직압니다."
 
 #: Teacups
 msgid ""
@@ -9911,7 +9914,7 @@ msgstr ""
 msgid ""
 "A high-capacity spinning car climbs up a tower. When it reaches the top, the "
 "entire tower begins to tilt back and forth."
-msgstr "대용량의 회전하는 차량이 탑을 올라갑니다. 꼭대기에 올라가면, 탑 전체가 앞 뒤로 기울어지기 시작합니다."
+msgstr "대용량의 회전하는 차량이 탑을 올라갑니다. 꼭대기에 올라가면, 탑 전체가 앞뒤로 기울어지기 시작합니다."
 
 #: TopScan
 msgid "A high capacity thrill ride capable of spinning and inversions."
@@ -11179,7 +11182,7 @@ msgstr "<b>더러움</b>"
 
 #: ShopInfoWindow ShopProductInfoEntry
 msgid "Sync"
-msgstr "동기화"
+msgstr "가격 동일"
 
 #: ShopInfoWindow
 msgid "Focus"
