@@ -9901,7 +9901,7 @@ msgstr "자유롭게 회전하면서 동시에 거대한 수직 회전 암에 �
 msgid ""
 "A pendulum ride that is designed to look like a sailing ship. The ship is "
 "pushed back and forth by drive wheels to simulate waves."
-msgstr "항해하는 배처럼 보이게 디자인된 진자형 놀이기구입니다. 이 배는 파도를 흉내내기 위해 앞뒤로 움직압니다."
+msgstr "항해하는 배처럼 보이게 디자인된 진자형 놀이기구입니다. 이 배는 파도를 흉내내기 위해 앞뒤로 움직입니다."
 
 #: Teacups
 msgid ""
