@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-01-22 04:59+0000\n"
+"PO-Revision-Date: 2019-01-26 04:36+0000\n"
 "Last-Translator: Willem Lee <telk5093@gmail.com>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -2698,7 +2698,7 @@ msgstr "{0} 탑승"
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\people\experiences\enteredparkexperience.cs:14
 msgid "Entered the park"
-msgstr "공원에 들어 옴"
+msgstr "공원에 들어옴"
 
 #. / 0 = name of attraction
 #: c:\work\parkitect unity
@@ -2850,7 +2850,7 @@ msgstr "지난 달 놓친 고객 수"
 #: 5.4\assets\scripts\research\researchcontroller.cs:297
 #: 5.4\assets\scripts\ui\windows\parkinfo\parkstatstab.cs:89
 msgid "Total attraction profit"
-msgstr "총 놀이기구 수익"
+msgstr "총 놀이기구 순익"
 
 #: c:\work\parkitect unity
 #: 5.4\assets\scripts\research\researchcontroller.cs:298
@@ -7394,7 +7394,7 @@ msgstr "레이스 아치 문"
 #: FlagSign01 FlagSign02
 msgctxt "BuildableObject"
 msgid "Flag Sign"
-msgstr "깃말 신호"
+msgstr "깃발 표지"
 
 #: RoadBarrier
 msgctxt "BuildableObject"
@@ -9738,7 +9738,7 @@ msgstr "수면 아래로 이동하는 동력 잠수함을 이용한 얌전한 �
 msgid ""
 "Coaster cars that hang under the track are capable of swinging left and "
 "right freely, creating a sensation of flying."
-msgstr "트랙 아래에 매달린 코스터 차량인 좌우로 자유롭게 흔들리면서 하늘을 나는 기분을 선사합니다."
+msgstr "트랙 아래에 매달린 코스터 차량이 좌우로 자유롭게 흔들리면서 하늘을 나는 기분을 선사합니다."
 
 #: SuspendedTrain
 msgid ""
@@ -10498,7 +10498,7 @@ msgstr "폭우가 끝날 때까지 새로운 손님을 받지 않습니다"
 
 #: BlockBrakeSettingsUI
 msgid "Trim speed if next block is clear"
-msgstr "다음 블록이 비어 있어도 속력 줄이기"
+msgstr "다음 블록이 비어있어도 속력 줄임"
 
 #: ChangeCarRotationSettingsUI TrackBuilderWindow
 msgid "Reset to 0"
@@ -10856,7 +10856,7 @@ msgstr "물 대포 과녁"
 
 #: TrackBuilderWindow
 msgid "Lock/unlock aiming"
-msgstr "조준 잠금/해제"
+msgstr "발사 잠금/해제"
 
 #: TrackBuilderWindow AttractionInfoWindow
 msgid "Entrance"
